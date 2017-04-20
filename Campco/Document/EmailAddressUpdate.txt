@@ -1,0 +1,13 @@
+Dear #Contact#,
+
+This email is sent by your request.
+
+Campco.com has just received a request to change the registered email of your Campco.com web Account.
+
+Current email: #CurrEmail#
+New email: #NewEmail#
+
+Thank you for using our service.
+
+Enjoy your shopping!
+The CampCo Team

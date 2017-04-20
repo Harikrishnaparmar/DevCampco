@@ -1,0 +1,750 @@
+-------------------------START-------------------------05-04-2017 10:38:33
+Page :index.aspx
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 80
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 80
+-------------------------END-------------------------05-04-2017 10:38:33
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 10:38:34
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.CampcoCommon.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 152
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.CampcoCommon.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 152
+-------------------------END-------------------------05-04-2017 10:38:34
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 10:38:57
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 80
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 80
+-------------------------END-------------------------05-04-2017 10:38:57
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 10:38:58
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.CampcoCommon.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 152
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.CampcoCommon.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 152
+-------------------------END-------------------------05-04-2017 10:38:58
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 10:39:50
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 131
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 131
+-------------------------END-------------------------05-04-2017 10:39:50
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 10:40:02
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 131
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 131
+-------------------------END-------------------------05-04-2017 10:40:02
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 10:43:04
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 131
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 131
+-------------------------END-------------------------05-04-2017 10:43:04
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 10:44:23
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 131
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 131
+-------------------------END-------------------------05-04-2017 10:44:23
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 10:47:06
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 131
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 131
+-------------------------END-------------------------05-04-2017 10:47:06
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 11:52:04
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 131
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 131
+-------------------------END-------------------------05-04-2017 11:52:04
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 11:52:06
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 278
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 278
+-------------------------END-------------------------05-04-2017 11:52:06
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 11:53:34
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 131
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 131
+-------------------------END-------------------------05-04-2017 11:53:34
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 11:54:10
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 131
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 131
+-------------------------END-------------------------05-04-2017 11:54:10
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 11:54:11
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 278
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 278
+-------------------------END-------------------------05-04-2017 11:54:11
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 11:58:25
+Page :Login.aspx
+----------------------------------------------------
+Event :CreateCustomerProfile Sample
+-------------------------END-------------------------05-04-2017 11:58:25
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 11:58:33
+Page :Login.aspx
+----------------------------------------------------
+Event :Error: E00039  A duplicate record with ID 1808028436 already exists.
+-------------------------END-------------------------05-04-2017 11:58:33
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 12:02:32
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 80
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 80
+-------------------------END-------------------------05-04-2017 12:02:32
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 12:02:33
+Page :Login.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.CampcoCommon.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 152
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.CampcoCommon.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 152
+-------------------------END-------------------------05-04-2017 12:02:33
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 12:02:33
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.CampcoCommon.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 152
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.CampcoCommon.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 152
+-------------------------END-------------------------05-04-2017 12:02:33
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 12:03:31
+Page :Login.aspx
+----------------------------------------------------
+Event :CreateCustomerProfile Sample
+-------------------------END-------------------------05-04-2017 12:03:31
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 12:06:13
+Page :Login.aspx
+----------------------------------------------------
+Event :Error: E00039  A duplicate record with ID 1808028436 already exists.
+-------------------------END-------------------------05-04-2017 12:06:13
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 12:22:25
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 131
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 131
+-------------------------END-------------------------05-04-2017 12:22:25
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 12:22:54
+Page :Login.aspx
+----------------------------------------------------
+Event :CreateCustomerProfile Sample
+-------------------------END-------------------------05-04-2017 12:22:54
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 12:23:09
+Page :Login.aspx
+----------------------------------------------------
+Event :Error: E00039  A duplicate record with ID 1808028436 already exists.
+-------------------------END-------------------------05-04-2017 12:23:09
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 12:23:22
+Page :Login.aspx
+----------------------------------------------------
+Event :Get Customer Profile sample
+-------------------------END-------------------------05-04-2017 12:23:22
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 12:23:23
+Page :Login.aspx
+----------------------------------------------------
+Event :Successful.
+-------------------------END-------------------------05-04-2017 12:23:23
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 12:23:23
+Page :Login.aspx
+----------------------------------------------------
+Event :Customer Profile Id: 1808028436
+-------------------------END-------------------------05-04-2017 12:23:23
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 12:24:30
+Page :Login.aspx
+----------------------------------------------------
+Event :CreateCustomerProfile Sample
+-------------------------END-------------------------05-04-2017 12:24:30
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 12:24:32
+Page :Login.aspx
+----------------------------------------------------
+Event :Error: E00039  A duplicate record with ID 1808028436 already exists.
+-------------------------END-------------------------05-04-2017 12:24:32
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 12:24:32
+Page :Login.aspx
+----------------------------------------------------
+Event :Get Customer Profile sample
+-------------------------END-------------------------05-04-2017 12:24:32
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 12:24:33
+Page :Login.aspx
+----------------------------------------------------
+Event :Successful.
+-------------------------END-------------------------05-04-2017 12:24:33
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 12:24:33
+Page :Login.aspx
+----------------------------------------------------
+Event :Customer Profile Id: 1808028436
+-------------------------END-------------------------05-04-2017 12:24:33
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 12:28:05
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 131
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 131
+-------------------------END-------------------------05-04-2017 12:28:05
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 12:28:13
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 131
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 131
+-------------------------END-------------------------05-04-2017 12:28:13
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 12:28:14
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 278
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 278
+-------------------------END-------------------------05-04-2017 12:28:14
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 12:29:23
+Page :Login.aspx
+----------------------------------------------------
+Event :CreateCustomerProfile Sample
+-------------------------END-------------------------05-04-2017 12:29:23
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 12:29:26
+Page :Login.aspx
+----------------------------------------------------
+Event :Error: E00039  A duplicate record with ID 1808028436 already exists.
+-------------------------END-------------------------05-04-2017 12:29:26
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 12:29:30
+Page :Login.aspx
+----------------------------------------------------
+Event :Get Customer Profile sample
+-------------------------END-------------------------05-04-2017 12:29:30
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 12:29:31
+Page :Login.aspx
+----------------------------------------------------
+Event :Successful.
+-------------------------END-------------------------05-04-2017 12:29:31
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 12:29:31
+Page :Login.aspx
+----------------------------------------------------
+Event :Customer Profile Id: 1808028436
+-------------------------END-------------------------05-04-2017 12:29:31
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 14:08:15
+Page :Login.aspx
+----------------------------------------------------
+Event :CreateCustomerProfile Sample
+-------------------------END-------------------------05-04-2017 14:08:15
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 14:08:18
+Page :Login.aspx
+----------------------------------------------------
+Event :Error: E00039  A duplicate record with ID 1808028436 already exists.
+-------------------------END-------------------------05-04-2017 14:08:18
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 14:08:18
+Page :Login.aspx
+----------------------------------------------------
+Event :Get Customer Profile sample
+-------------------------END-------------------------05-04-2017 14:08:18
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 14:08:19
+Page :Login.aspx
+----------------------------------------------------
+Event :Successful.
+-------------------------END-------------------------05-04-2017 14:08:19
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 14:08:19
+Page :Login.aspx
+----------------------------------------------------
+Event :Customer Profile Id: 1808028436
+-------------------------END-------------------------05-04-2017 14:08:19
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 14:10:05
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 131
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 131
+-------------------------END-------------------------05-04-2017 14:10:05
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 14:10:34
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 131
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 131
+-------------------------END-------------------------05-04-2017 14:10:34
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 14:10:35
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 278
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 278
+-------------------------END-------------------------05-04-2017 14:10:35
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 14:11:34
+Page :Login.aspx
+----------------------------------------------------
+Event :CreateCustomerProfile Sample
+-------------------------END-------------------------05-04-2017 14:11:34
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 14:11:41
+Page :Login.aspx
+----------------------------------------------------
+Event :Error: E00039  A duplicate record with ID 1808028436 already exists.
+-------------------------END-------------------------05-04-2017 14:11:41
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 14:11:41
+Page :Login.aspx
+----------------------------------------------------
+Event :Get Customer Profile sample
+-------------------------END-------------------------05-04-2017 14:11:41
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 14:11:42
+Page :Login.aspx
+----------------------------------------------------
+Event :Successful.
+-------------------------END-------------------------05-04-2017 14:11:42
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 14:11:42
+Page :Login.aspx
+----------------------------------------------------
+Event :Customer Profile Id: 1808028436
+-------------------------END-------------------------05-04-2017 14:11:42
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 14:11:48
+Page :Login.aspx
+----------------------------------------------------
+Event :Customer ID:ROLFQ... Customer Type:2
+-------------------------END-------------------------05-04-2017 14:11:48
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 14:23:24
+Page :Login.aspx
+----------------------------------------------------
+Event :CreateCustomerProfile Sample
+-------------------------END-------------------------05-04-2017 14:23:24
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 14:23:28
+Page :Login.aspx
+----------------------------------------------------
+Event :Error: E00039  A duplicate record with ID 1808028436 already exists.
+-------------------------END-------------------------05-04-2017 14:23:28
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 14:23:28
+Page :Login.aspx
+----------------------------------------------------
+Event :Get Customer Profile sample
+-------------------------END-------------------------05-04-2017 14:23:28
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 14:23:30
+Page :Login.aspx
+----------------------------------------------------
+Event :Successful.
+-------------------------END-------------------------05-04-2017 14:23:30
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 14:23:30
+Page :Login.aspx
+----------------------------------------------------
+Event :Customer Profile Id: 1808028436
+-------------------------END-------------------------05-04-2017 14:23:30
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 14:23:30
+Page :Login.aspx
+----------------------------------------------------
+Event :Customer ID:ROLFQ... Customer Type:2
+-------------------------END-------------------------05-04-2017 14:23:30
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 14:40:42
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 131
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 131
+-------------------------END-------------------------05-04-2017 14:40:42
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 15:10:57
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 131
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 131
+-------------------------END-------------------------05-04-2017 15:10:57
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 15:10:59
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 270
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 270
+-------------------------END-------------------------05-04-2017 15:10:59
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 15:28:50
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 131
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 131
+-------------------------END-------------------------05-04-2017 15:28:50
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 15:29:03
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 131
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 131
+-------------------------END-------------------------05-04-2017 15:29:03
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 15:29:04
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 278
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 278
+-------------------------END-------------------------05-04-2017 15:29:04
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 15:30:04
+Page :Login.aspx
+----------------------------------------------------
+Event :CreateCustomerProfile Sample
+-------------------------END-------------------------05-04-2017 15:30:04
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 15:33:34
+Page :Login.aspx
+----------------------------------------------------
+Event :Error: E00039  A duplicate record with ID 1808028436 already exists.
+-------------------------END-------------------------05-04-2017 15:33:34
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 15:33:36
+Page :Login.aspx
+----------------------------------------------------
+Event :Get Customer Profile sample
+-------------------------END-------------------------05-04-2017 15:33:36
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 15:33:38
+Page :Login.aspx
+----------------------------------------------------
+Event :Successful.
+-------------------------END-------------------------05-04-2017 15:33:38
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 15:33:38
+Page :Login.aspx
+----------------------------------------------------
+Event :Customer Profile Id: 1808028436
+-------------------------END-------------------------05-04-2017 15:33:38
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 15:33:53
+Page :Login.aspx
+----------------------------------------------------
+Event :Customer ID:ROLFQ... Customer Type:2
+-------------------------END-------------------------05-04-2017 15:33:53
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 16:02:11
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 131
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 131
+-------------------------END-------------------------05-04-2017 16:02:11
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 16:04:16
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 131
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 131
+-------------------------END-------------------------05-04-2017 16:04:16
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 16:17:55
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 131
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 131
+-------------------------END-------------------------05-04-2017 16:17:55
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 16:17:56
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 270
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 270
+-------------------------END-------------------------05-04-2017 16:17:56
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 17:54:37
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 131
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 131
+-------------------------END-------------------------05-04-2017 17:54:37
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 17:55:24
+Page :productList.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Web.UI.UpdatePanel.Update()
+   at Campco.Common.ProductList.btnfilter_click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\ProductList.aspx.cs:line 165
+----------------------------------------------------
+System.InvalidOperationException: The Update method can only be called on UpdatePanel with ID 'UpdatePanel1' when UpdateMode is set to Conditional.
+   at System.Web.UI.UpdatePanel.Update()
+   at Campco.Common.ProductList.btnfilter_click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\ProductList.aspx.cs:line 165
+-------------------------END-------------------------05-04-2017 17:55:24
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 18:06:54
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 131
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 131
+-------------------------END-------------------------05-04-2017 18:06:54
+----------------------------------------------------
+-------------------------START-------------------------05-04-2017 18:07:03
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 131
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 131
+-------------------------END-------------------------05-04-2017 18:07:03
+----------------------------------------------------

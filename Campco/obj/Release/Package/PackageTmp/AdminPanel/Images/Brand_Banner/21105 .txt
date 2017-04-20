@@ -1,0 +1,35 @@
+                    Tax Payer's counterfoil. Cyber Receipt for e-Payment through          
+				 Central Bank of India                                                
+                 ------------------------------------------------------------
+
+
+	Bank Name                	Central Bank Of India         
+	BSR Code                 	028-0604      
+	Challan Tender Date      	05/01/2015 at 15:36:00
+	Challan number.          	00774 
+	CIN No.                  	0280604-05012015-00774   
+	Assessee Name.           	TARAL SHAH                                                  
+					                                                            
+	Assessee Code            	BHAPS1161ASD001
+	Location Code            	SD0301         
+	Commissionerate Code     	SD             
+	Division Code            	03             
+	Range Code               	01             
+	Major Head Code          	0044 - SERVICE TAX
+	Accounting Code 1   		00440092(CHARTERED ACCOUNTANTS)                                                                                                   
+	Amount.1                        Rs.20490                  
+	Accounting Code 2   		00440298(PRIMARY EDUCATION CESS)                                                                                                  
+	Amount.2                        Rs.410                    
+	Accounting Code 3   		00440426(SECONDARY AND HIGHER EDUCATION CESS)                                                                                     
+	Amount.3                        Rs.205                    
+	Total Amount paid        	Rs.21105            
+	Amount in Words          	Rs.TWENTY ONE THOUSAND ONE HUNDRED AND FIVE only            
+	Mode of Payment          	Internet(e-Payment)
+	Date of Realisation      	05/01/2015
+
+
+Receipt Printed on.                                        16/05/2015
+
+
+
+

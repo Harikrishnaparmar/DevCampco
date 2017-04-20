@@ -1,0 +1,174 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="CampcoAdmin.master.cs" Inherits="Campco.AdminPanel.CampcoAdmin" %>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+     <link rel="stylesheet" href="../Common/assets/css/style.css" type="text/css" media="all" />
+<link rel="stylesheet" href="../Common/assets/css/styles.css" type="text/css" media="all" />
+<link rel="stylesheet"id="woocommerce-layout-css" href="../Common/assets/css/woocommerce-layout.css" type="text/css" media="all" />
+<link rel="stylesheet"id="woocommerce-general-css" href="../Common/assets/css/woocommerce.css" type="text/css" media="all" />
+<link rel="stylesheet"id="js_composer_front-css" href="../Common/assets/css/js_composer.min.css" type="text/css" media="all" />
+<link rel="stylesheet"id="bsf-Defaults-css" href="../Common/assets/fonts/font-css/Defaults.css" type="text/css" media="all" />
+  
+<link rel="stylesheet"id="ultimate-google-fonts-css"  href="https://fonts.googleapis.com/css?family=Montserrat|Source+Code+Pro:regular,700" type="text/css" media="all" />
+<link rel="stylesheet"id="Fonts"  href="../Common/assets/fonts/font-css/fonts.css" type="text/css" media="all" />
+<link rel="stylesheet"id="ultimate-style-min-css"  href="../Common/assets/css/ultimate.min.css" type="text/css" media="all" />
+<link rel="stylesheet"id="ult-icons-css"  href="../Common/assets/fonts/font-css/icon.css" type="text/css" media="all" />
+<link rel="stylesheet"id="prettyphoto-css"  href="../Common/assets/css/prettyPhoto.min.css" type="text/css" media="all" />
+<link rel="stylesheet"id="footerfont"  href="../Common/assets/fonts/footerfont/footerfont.css" type="text/css" media="all" />
+<link rel="stylesheet"id="jquery.fancybox"  href="../Common/assets/css/jquery.fancybox.css" type="text/css" media="all" />
+<link rel="stylesheet"id="subscription-popup"  href="../Common/assets/css/subscription-popup.css" type="text/css" media="all" />
+
+<script type="text/javascript" src="../Common/assets/js/jquery.js"></script>
+<script type='text/javascript' src="../Common/assets/js/script.js"></script> 
+<script type="text/javascript" src="../Common/assets/js/jquery-migrate.min.js"></script>
+<script type="text/javascript" src="../Common/assets/js/validation/jquery.validate.js"></script>
+<script type="text/javascript" src="../Common/assets/js/validation/additional-methods.min.js"></script>
+
+<script type='text/javascript' src="../Common/assets/js/tabcontent.js"></script>
+    
+<script type="text/javascript" src="../Common/assets/js/picturefill.min.js"></script>
+<script type="text/javascript" src="../Common/assets/js/add-to-cart.min.js"></script>
+<script type="text/javascript" src="../Common/assets/js/woocommerce-add-to-cart.js"></script>
+<script type="text/javascript" src="../Common/assets/js/core.min.js"></script>
+<script type="text/javascript" src="../Common/assets/js/ultimate.min.js"></script>
+<script type="text/javascript" src="../Common/assets/js/zoom/jzoom.min.js"></script>    
+<link rel="icon"  href="../Common/assets/images/qube_favicon_dark-1.png"/>
+<script type="text/javascript">
+    function setFocusToTextBox() {
+        var textbox = document.getElementById("txtSearch");
+        textbox.focus();
+        textbox.scrollIntoView();
+    }
+</script>
+<%--<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-93350070-1', 'auto');
+  ga('send', 'pageview');
+</script>--%>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+<div id="header-top-qube" class="header-top-container-pro">
+    <div class="width-container-qube">
+      <div class="menu-top-header-container">
+        <ul id="menu-top-header" class="sf-menu">
+          <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-4481"><a href="#"><span class="progression-megamenu-icon text-menu-icon"><i class="fa fa-user"></i></span>Hi|Admin</a></li>
+          <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-4517"><a  ><span class="progression-megamenu-icon text-menu-icon"><i class="fa fa-clock-o"></i></span>MON &#8211; FRI 7:00AM &#8211; 4:00PM PST</a></li>
+          <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-4519"><a href="#"><span class="progression-megamenu-icon text-menu-icon"><i class="fa fa-phone"></i></span>1.888.9CAMPCO</a></li>
+          <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-4625"><a href="#"><span class="progression-megamenu-icon text-menu-icon"><i class="fa fa-envelope-o"></i></span>service@campco.com</a></li>
+        </ul>
+      </div>
+      <div class="social-ico"> <span class="spacer-fix-right-pro"></span> 
+         
+    <asp:linkbutton id="lnkSinIn" runat="server" visible ="false" onclick="lnkSinIn_Click" Font-Size="Small" >sign in</asp:linkbutton>         
+     <asp:linkbutton id="lnkSignout" runat="server" visible ="true" onclick="lnkSignout_Click" Font-Size="Small" CausesValidation="false" >sign out</asp:linkbutton>
+       <span class="spacer-fix-last-pro"></span></div>
+      <div class="clearfix-qube-ezio"></div>
+    </div>
+  </div>
+         <div class="clearfix-qube-ezio"></div>
+   <header id="masthead-qube" class="site-header default-non-fixed full-width-header">
+    <div class="width-container-qube sidebar-container-pro">      
+    <h1 id="logo-pro"><a href="CustomerProfilelist.aspx" title="" rel="home"><img src="../Common/assets/images/logo-up.png" alt="" width="85" class="default-logo" /></a></h1>
+     <div id="pro-navigation-middle">
+        <div id="navigation-border-top-qube">
+            <nav id="site-navigation" class="main-navigation center-nav-pro">
+            <div class="menu-main-navigation-container">
+                  <ul id="menu-main-navigation" class="sf-menu">
+                       <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4224"><a href ="admin.aspx" >Add Tracking Id</a>                   
+                   </li>
+                  <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4224"><a href ="CustomerProfilelist.aspx" > Customer Profile</a>                   
+                   </li>
+                  <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4224">  <a href ="BrandBanner.aspx">Brand Banner</a>              
+                  </li>
+                  <%--<li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4224"><a href = "AddAboutusDetail.aspx"> Add Aboutus detail</a>                   
+                  </li>
+                  --%>
+
+                  </ul>
+                  <%--  <%
+                   if (HttpContext.Current.Session["CustomerName"].ToString() == "admin")
+                    {%>
+                  
+                    <%}
+                     %>--%>
+               
+              
+              </div>
+              <div class="clearfix-qube-ezio"></div>
+            </nav>
+        </div>
+      </div>
+      <div class="clearfix-qube-ezio"></div>
+    </div>
+ 
+    <div id="main-nav-mobile">
+              <div class="menu-main-navigation-container">
+                <ul id="menu-main-navigation-1" class="mobile-menu-pro">
+                  <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4224"><a href="CustomerProfilelist.aspx">Customer Profile</a></li>
+                  <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-4333"><a href="registration.html">Become A Dealer</a></li>
+                  <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-4333"><a href="uzi.html">UZI</a></li>                
+                  <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-4333"><a href="humvee.html">Humvee</a></li>
+                  <li class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4440"><a href="smith-wesson.html">Smith & Wesson</a></li>
+                  <li class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4440"><a href="#">Recover</a></li>
+                  <li class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4440"><a href="#">Swiss Tritium</a></li>
+                  <li class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4440"><a href="#">Caliber Gourmet</a></li>
+                  <li class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4440"><a href="brands.html">Other Brands</a></li>
+                </ul>
+              </div>
+              <div class="clearfix-qube-ezio"></div>
+
+      <%--<form method="get" class="search-form" action="http://qubeplus.com/demo/ezio-modern-shop/">
+        <label> <span class="screen-reader-text">Search for:</span> <i class="demo-icon icon-search"></i>
+          <input type="search" class="search-field" placeholder="Enter a keyword and hit enter..." value="" name="s">
+        </label>
+        <input type="submit" class="search-submit" value="Search">
+      </form>--%>
+
+      <div class="clearfix-qube-ezio"></div>
+    </div>
+</header>
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+<footer id="site-footer-qube" class="footer-bottom">
+         <div class="vc_row-full-width vc_clearfix"></div>
+    <div id="widget-area-qube">
+      <div class="width-container-qube-main footer-5-pro">      
+        </div>
+         
+            <div class="clearfix-qube-ezio"></div>
+        </div>    
+    <div id="copyright-pro">
+      <div class="width-container-qube">
+        <div id="copyright-text-pro">CopyRight 2016 CAMPCO  All Rights Reserved &copy;  signed by AREA CODE310</div>
+        <div id="footer-right-qube">
+          <div class="menu-main-navigation-container">
+            <ul id="menu-main-navigation-2" class="footer-menu">
+                   <li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4452"> <a href="TrackingOrderList.aspx"> Add Tracking Id</a></li>
+              <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-4510"> <a href="CustomerProfilelist.aspx">Customer Profile</a></li>
+              <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-4333"> <a href="BrandBanner.aspx">Add Brand Banner</a></li>
+           
+              <%--<li class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4440"> <a href="">Recover</a></li>
+              <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4224"> <a href="#">Caliber Gourmet</a></li>
+              <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4327"> <a href="#">Swiss Tritium</a></li>              
+         --%> 
+
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="clearfix-qube-ezio"></div>
+    </div>
+    <a href="#0" id="pro-scroll-top">Scroll to top</a> </footer>
+    </form>
+</body>
+</html>

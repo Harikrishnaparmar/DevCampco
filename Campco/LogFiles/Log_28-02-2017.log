@@ -1,0 +1,12 @@
+-------------------------START-------------------------28-02-2017 12:13:31
+Page :index.aspx
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 204
+----------------------------------------------------
+-------------------------END-------------------------28-02-2017 12:13:31
+----------------------------------------------------

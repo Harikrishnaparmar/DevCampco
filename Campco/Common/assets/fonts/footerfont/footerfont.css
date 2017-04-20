@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'Mohave-Bold';
+  src: url('Mohave-Bold.eot');
+  src: /*url('Mohave-Bold.woff2') format('woff2'),*/
+       url('Mohave-Bold.woff') format('woff'),
+       url('Mohave-Bold.ttf') format('truetype'),
+       url('Mohave-Bold.svg#Mohave-Bold') format('svg'),
+       url('Mohave-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Mohave-BoldItalic';
+	src: url('../fonts/Mohave-BoldItalic.eot?#iefix')	format('embedded-opentype'), 
+	url('Mohave-BoldItalic.otf') 	format('opentype'),  
+	url('Mohave-BoldItalic.woff')	format('woff'), 
+	url('Mohave-BoldItalic.ttf') 	format('truetype'), 
+	url('Mohave-BoldItalic.svg#Mohave-BoldItalic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'MyriadProRegular';
+    src: url('myriadpro-regular.eot');
+    src: url('myriadpro-regular.eot') format('embedded-opentype'),
+         /*url('myriadpro-regular.woff2') format('woff2'),*/
+         url('myriadpro-regular.woff') format('woff'),
+         url('myriadpro-regular.ttf') format('truetype'),
+         url('myriadpro-regular.svg#MyriadProRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'MyriadProSemibold';
+    src: url('myriadpro-semibold.eot');
+    src: url('myriadpro-semibold.eot') format('embedded-opentype'),
+         /*url('myriadpro-semibold.woff2') format('woff2'),*/
+         url('myriadpro-semibold.woff') format('woff'),
+         url('myriadpro-semibold.ttf') format('truetype'),
+         url('myriadpro-semibold.svg#MyriadProSemibold') format('svg');
+}

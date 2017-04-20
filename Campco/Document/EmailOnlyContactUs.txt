@@ -1,0 +1,13 @@
+Dear #ContName#,
+
+Thank you for contacting us. A customer service representative will be in touch with you shortly.
+
+Contact details:
+
+Name:  #Name#
+Email:  #EMail#
+Subject:  #Subject#
+Message:  #Message#
+
+www.campco.com
+Sales Team

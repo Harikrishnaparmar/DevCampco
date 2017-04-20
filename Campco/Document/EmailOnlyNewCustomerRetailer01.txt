@@ -1,0 +1,16 @@
+Dear #Contact#,
+
+Thank you for registering as a loyal CampCo customer. You can now enjoy ease of shopping with all of your information saved on your profile.
+
+Your login information is:
+Account ID: #AccountId#
+Contact: #Contact#
+Email: #EMail#
+Password: #Password#
+
+We look forward to providing you with exceptional customer service, amazing products, and great deals available only to our exclusive customers.
+
+If you have any questions, please don't hesitate to contact us at service@campco.com or by phone at 323-766-2555.
+
+Enjoy your shopping!
+The CampCo Team

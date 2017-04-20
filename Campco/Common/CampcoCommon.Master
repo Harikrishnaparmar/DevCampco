@@ -1,0 +1,1349 @@
+﻿ <%-- Created By - Nisha Patel---%>
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="CampcoCommon.master.cs" Inherits="Campco.Common.CampcoCommon" %>
+<!DOCTYPE html>
+<html>
+<head id="Head1" runat="server">
+<title>Campco Inc.</title>
+<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+ <link rel="stylesheet" href="assets/css/style.css" type="text/css" media="all" />
+<link rel="stylesheet" href="assets/css/styles.css" type="text/css" media="all" />
+<link rel="stylesheet"id="woocommerce-layout-css" href="assets/css/woocommerce-layout.css" type="text/css" media="all" />
+<link rel="stylesheet"id="woocommerce-general-css" href="assets/css/woocommerce.css" type="text/css" media="all" />
+<link rel="stylesheet"id="js_composer_front-css" href="assets/css/js_composer.min.css" type="text/css" media="all" />
+<link rel="stylesheet"id="bsf-Defaults-css" href="assets/fonts/font-css/Defaults.css" type="text/css" media="all" />
+<link rel="stylesheet"id="ultimate-google-fonts-css"  href="https://fonts.googleapis.com/css?family=Montserrat|Source+Code+Pro:regular,700" type="text/css" media="all" />
+<link rel="stylesheet"id="Fonts"  href="assets/fonts/font-css/fonts.css" type="text/css" media="all" />
+<link rel="stylesheet"id="ultimate-style-min-css"  href="assets/css/ultimate.min.css" type="text/css" media="all" />
+<link rel="stylesheet"id="ult-icons-css"  href="assets/fonts/font-css/icon.css" type="text/css" media="all" />
+<link rel="stylesheet"id="prettyphoto-css"  href="assets/css/prettyPhoto.min.css" type="text/css" media="all" />
+<link rel="stylesheet"id="footerfont"  href="assets/fonts/footerfont/footerfont.css" type="text/css" media="all" />
+<link rel="stylesheet"id="jquery.fancybox"  href="assets/css/jquery.fancybox.css" type="text/css" media="all" />
+<link rel="stylesheet"id="subscription-popup"  href="assets/css/subscription-popup.css" type="text/css" media="all" />
+
+<script type="text/javascript" src="assets/js/jquery.js"></script>
+<script type='text/javascript' src='assets/js/script.js'></script> 
+   
+<script type="text/javascript" src="assets/js/jquery-migrate.min.js"></script>
+<script type="text/javascript" src="assets/js/validation/jquery.validate.js"></script>
+<script type="text/javascript" src="assets/js/validation/additional-methods.min.js"></script>
+<!--<script type="text/javascript" src="assets/js/jquery.flexslider-min.js"></script>-->
+
+<script type='text/javascript' src="assets/js/tabcontent.js"></script>
+    
+<script type="text/javascript" src="assets/js/picturefill.min.js"></script>
+<script type="text/javascript" src="assets/js/add-to-cart.min.js"></script>
+<script type="text/javascript" src="assets/js/woocommerce-add-to-cart.js"></script>
+<script type="text/javascript" src="assets/js/core.min.js"></script>
+<script type="text/javascript" src="assets/js/ultimate.min.js"></script>
+<%--<script type="text/javascript" src="assets/js/zoom/jzoom.min.js"></script>--%>  
+      
+<link rel="icon"  href="assets/images/qube_favicon_dark-1.png">
+<script type="text/javascript">
+    function setFocusToTextBox() {
+        var textbox = document.getElementById("txtSearch");
+        textbox.focus();
+        textbox.scrollIntoView();
+    }
+</script>
+        <!-- Facebook Pixel Code -->
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '246784219122696'); // Insert your pixel ID here.
+fbq('track', 'PageView');
+//fbq('track', 'AddToCart');
+//fbq('track', 'Search');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=246784219122696&ev=PageView&noscript=1"
+/></noscript>
+<!-- DO NOT MODIFY -->
+<!-- End Facebook Pixel Code -->
+
+<noscript>
+    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=144757346056994&ev=PageView&noscript=1"/>
+</noscript>
+<!-- DO NOT MODIFY -->
+
+
+
+<!-- End Facebook Pixel Code -->
+
+    
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-93350070-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
+
+<script>
+    jQuery(document).ready(function () {
+        jQuery('.infoicone').click(function () {
+            jQuery('#menu-top-header').toggleClass('infodetails', 'slow', "easeOutSine");
+        });
+
+        var senseSpeed = 5;
+        var previousScroll = 5;
+        jQuery(window).scroll(function (event) {
+            var scroller = jQuery(this).scrollTop();
+            if (scroller - senseSpeed > previousScroll) {
+                jQuery("div#header-top-qube").filter(':not(:animated)').slideUp();
+            } else if (scroller + senseSpeed < previousScroll) {
+                jQuery("div#header-top-qube").filter(':not(:animated)').slideDown();
+            }
+            previousScroll = scroller;
+        });
+    });
+
+
+
+</script>
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+
+            //jQuery(".panel-search-qube").click(function () {
+            //    jQuery("#txtSearch").focus();
+            //});
+            //SCRIPT BY DAVID
+
+            function getParameterByName(name, url) {
+                if (!url) {
+                    url = window.location.href;
+                }
+                name = name.replace(/[\[\]]/g, "\\$&");
+                var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                    results = regex.exec(url);
+                if (!results) return null;
+                if (!results[2]) return '';
+                return decodeURIComponent(results[2].replace(/\+/g, " "));
+            }
+
+            //----------------------------------------------------------------------------
+            var catId = getParameterByName('catId')
+            if (getParameterByName('catid') == null) {
+                catId = getParameterByName('CatId');
+            }
+            else {
+                catId = getParameterByName('catid');
+            }
+            var parent = jQuery('li[catid=' + catId + ']').attr('mainid');
+            //alert(parent);
+            if (parent != null)
+                {
+                catId = parent;
+            }
+            catId1=parseInt(catId);
+            if (catId1 > 59)
+            {
+                catId = '59';
+            }
+            jQuery('li').removeClass('current');
+            
+            var ele = jQuery('li[catid=' + catId + ']').addClass('current');
+
+            var cartCount = jQuery('span#count').text();
+            var x = jQuery('.user-account').attr('drop')
+            //alert(x);
+            if (x == "3") {
+                jQuery('tr.dropship').show();
+            }
+            else {
+                jQuery('tr.dropship').hide();
+            }
+            if (cartCount == 0) {
+                jQuery('a.checkout-button-header-cart').css("display", "none");
+            }
+            else {
+                jQuery('a.checkout-button-header-cart').css("display", "inherit");
+            }
+
+            jQuery("ul").each(function () {
+                var elem = jQuery(this);
+                if (elem.children().length == 0) {
+                    elem.remove();
+                }
+            }
+             );
+        });
+
+        jQuery("#searchvalue").change(function () {
+            var a = jQuery("#searchvalue").val();
+            fbq('track', 'Search');
+            window.location.href = "ProductList.aspx?Search=" + a;
+        });
+        //jQuery('.ShippingCharge').hide();
+        //var ship = jQuery(".user-account").attr("international");
+        //alert(ship);
+        //    if(parseInt(ship)>0)
+        //{
+        //        jQuery('.ShippingCharge').show();
+        //}
+        //jQuery(document).ready(function () {
+
+        //    jQuery('#div1').addClass('account-option');
+
+        //});
+
+        // window.history.back();
+        //location.reload();
+
+        //window.onpopstate = function () {
+        //    alert("pop!");
+        //}
+
+    </script>
+    <style>
+        /* Paste this css to your style sheet file or under head tag */
+        /* This only works with JavaScript, 
+if it's not present, don't show loader */
+        .no-js #loader {
+            display: none;
+        }
+
+        .js #loader {
+            display: block;
+            position: absolute;
+            left: 100px;
+            top: 0;
+        }
+
+        .se-pre-con {
+            position: fixed;
+            left: 0px;
+            top: 0px;
+            width: 100%;
+            height: 100%;
+            z-index: 9999;
+            background: url('../Common/assets/images/loader4.gif') center no-repeat #000000;
+        }
+
+        .imgLoader {
+            width: 106px;
+            height: 38px;
+            position: relative;
+            left: 46%;
+            top: 46%;
+        }
+    </style>
+    <script type="text/javascript" src="assets/js/modernizr-2.6.2.min.js"></script>
+    
+    <script type="text/javascript">
+        //paste this code under head tag or in a seperate js file.
+        // Wait for window load
+        jQuery(window).load(function () {
+            // Animate loader off screen
+            jQuery(".se-pre-con").fadeOut("slow");;
+        });
+</script>
+    
+<asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+ 
+</head>
+
+
+
+   <%--class="page page-id-4273 page-template-default dark-lightbox-pro light-nav-force optional-logo-body single single-product postid-4494 woocommerce woocommerce-page dark-lightbox-pro wpb-js-composer js-comp-ver-4.11.1 vc_responsive"--%>    
+<body   class="single single-product postid-4494 woocommerce woocommerce-page  dark-lightbox-pro wpb-js-composer js-comp-ver-4.11.1 vc_responsive optional-logo-body" >
+    <div class="se-pre-con"></div><%--<img class="imgLoader" src="assets/images/loading.gif" style="top: 48px;
+    width: 507px;
+    left: 210px;">--%>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+<div id="boxed-layout-qube" >
+    <%-- StartHeader --%>
+    <div class="menutopfix">
+    <%--<%if (custype != 10)
+        { %>--%>
+  <div id="header-top-qube" class="header-top-container-pro">
+    <div class="width-container-qube">
+     
+       <div class="menu-top-header-container homeinfo">
+           <div class="vc_container topiconenav">
+                        <div class="homenav-left pull-left"><a href="index.aspx"><i class="fa fa-home"></i> </a></div>
+                        <div class="info-right pull-right"><a href="javascript:void(0)" class="infoicone"><i class="fa fa-info-circle" aria-hidden="true"></i></a></div>
+           </div>
+           
+
+        <ul id="menu-top-header" class="sf-menu">
+        <%--  <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-4481"><a href="Login.aspx"><span class="progression-megamenu-icon text-menu-icon"><i class="fa fa-user"></i></span>
+            </a></li>--%>
+             <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-4481">
+              <a href="index.aspx"><i class="fa fa-home"></i> </a>
+                </li>
+         
+              <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-4481">
+                
+              <div class="dropdownmc">
+              <a class="dropbtn-1">
+               <asp:LinkButton ID="lnkMyaccount" runat="server" CssClass="fa fa-users"  CausesValidation="false" OnClick="lnkMyaccount_Click"> My Account </asp:LinkButton>
+              <div class="dropdown-content-1" id="divdropdown"  runat="server">
+                <a href="UpdateMyProfile.aspx">Profile</a>
+                <a href="MyOrder.aspx">Orders</a>
+                <a href="MyCard.aspx">Payment Information</a>
+                <a href="MyShippingAddress.aspx">Addresses</a>   
+              </div>
+            </div> 
+              </li>
+          <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-4517"><a><span class="progression-megamenu-icon text-menu-icon"><i class="fa fa-clock-o"></i></span>MON &#8211; FRI 7:00AM &#8211; 4:00PM PST</a></li>
+          <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-4519"><a href="#"><span class="progression-megamenu-icon text-menu-icon"><i class="fa fa-phone"></i></span>1.888.9CAMPCO</a></li>
+          <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-4625"><a href="#"><span class="progression-megamenu-icon text-menu-icon"><i class="fa fa-envelope-o"></i></span>service@campco.com</a></li>
+           <%  if (Convert.ToInt16(HttpContext.Current.Session["customerType"]) == 3)
+               {%>  
+          
+              <%}
+                  else
+                  {%>
+              <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-4625"><a href="#" style="color:red;"><span class="progression-megamenu-icon text-menu-icon"><i class="fa fa-envelope-o"></i></span>Free Shipping on all Retail orders over $100 ($300 International).</a></li>
+         <%--   <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-4625"><a href="#" style="color:red;"><span class="progression-megamenu-icon text-menu-icon"><i class="fa fa-envelope-o"></i></span>Free shipping on domestic  orders over $100 ($200 international).</a></li>--%>
+              
+              <%}
+             %>
+        </ul>
+      </div>
+      <div class="social-ico"> <span class="spacer-fix-dealer right-pro">
+                  <%--<ul id="menu-top-header" class="sf-menu">
+                        <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-4481">
+                  --%>
+           
+          <div class="user-account" custype="<%=custype %>" IsSpecial="<%=isspecial %>" international="<%=international %>" drop="<%=Drop %>">
+  <button class="userdropbtn">
+      <asp:label id="lbluname" runat="server" text="" visible="false" Font-Size="x-Small"></asp:label> </button>
+      <%--<div class="account-option" id="divdropdown"  runat="server">
+   <a href="UpdateMyProfile.aspx">Profile</a>
+    <a href="MyOrder.aspx">Orders</a>
+    <a href="MyCard.aspx">Cards</a>
+    <a href="MyShippingAddress.aspx">addresses</a>    
+  </div>--%>
+               <asp:label id="Label1" runat="server" text="|" visible="false" Font-Size="Small"  ></asp:label>  
+               <asp:linkbutton id="lnkSinIn" runat="server" visible ="true" onclick="lnkSinIn_Click" Font-Size="Small" CausesValidation="false">sign in</asp:linkbutton>         
+                <asp:linkbutton id="lnkSignout" runat="server" visible ="false" onclick="lnkSignout_Click" Font-Size="Small" CausesValidation="false">sign out</asp:linkbutton>
+</div>
+
+                      <%--  </li>
+                      </ul>
+      --%>
+                               </span> 
+<%--         <a href="https://www.facebook.com/CampCoinc/" target="_blank"><i class="fa fa-facebook"></i></a>
+         <a href="https://www.instagram.com/campcoinc/" target="_blank"><i class="fa fa-instagram"></i></a> 
+         <a href="https://www.youtube.com/user/CampcoGear" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i>--%>
+
+         </a> 
+        <span class="spacer-fix-last-pro"></span></div>
+      <div class="clearfix-qube-ezio"></div>
+    </div>
+  </div>
+  <%--<div class="clearfix-qube-ezio"></div>--%>
+
+<div class="menuouter_camp">
+  <header id="masthead-qube" class="site-header default-non-fixed   full-width-header">
+    <div class="width-container-qube sidebar-container-pro">        
+        <%           
+            if (catelogo != null)
+            {%>
+       <h1 id="logo-pro"><a href="index.aspx?CatId=<%=catelogo.CATEGORYID %>" title="Campco | Shop Modern" rel="home">
+       <img src="<%=catelogo != null ? catelogo.MEDIUMPIC : "assets/images/logo-up1.png" %>" alt="" width="85" class="default-logo" id="logoimg"  visible="true"/>
+      <%--<img src="<%=catelogo != null ? catelogo.SMALLPIC : "assets/images/logo-up1.png" %>" alt="" width="85" class="optional-logo" />--%>                     
+          <img src="<%=catelogo != null ? catelogo.MEDIUMPIC : "assets/images/logo-up1.png" %>" alt="" width="85" class="optional-logo" />
+            </a></h1>
+            <%}
+                else
+                {%>
+         <h1 id="logo-pro"><a href="index.aspx" title="Campco | Shop Modern" rel="home">
+              <img src="<%=catelogo != null ? catelogo.MEDIUMPIC : "assets/images/logo-up1.png" %>" alt="" width="85" class="default-logo"/>
+             <img src="<%=catelogo != null ? catelogo.MEDIUMPIC : "assets/images/logo-up1.png" %>" alt="" width="85" class="optional-logo" />
+            </a></h1>
+      
+                <%}
+           %>           
+      <div class="mobile-menu-icon-pro noselect"><i class="icon-pro icon-menu"></i></div>
+      <div class="cart-position-inline cart-border-inline">
+        <div class="search-icon-pro noselect"><i class="icon-pro icon-search" id="SearchFocus"></i></div>
+        <div class="cart-hover-pro"> <a class="cart-icon-pro" href="cart.aspx"> <i class="icon-pro icon-cart"></i> <span id="count" class="shopping-cart-header-count"><%=HttpContext.Current.Session["Cart_Count"] == null ? 0 : HttpContext.Current.Session["Cart_Count"]%></span> </a></div>
+        <div class="checkout-basket-pro">
+          <div class="check-out-basket-pro-container">
+            <div class="ajax-cart-header">
+                <%if (Products != null)
+                    { %>
+                <table class="shop_table woocommerce-checkout-review-order-table">
+                  <thead>
+                    <tr>
+                      <th class="product-remove">&nbsp;</th>
+                      <th class="product-name">Product</th>                      
+                      <th class="product-total">Total</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                      <%foreach (var item in Products)
+                          {%>  
+                      <tr class="cart_item">
+                          <td class="product-remove"><a href="javascript:void(0)" class="remove" onclick="Remove('<%=item.PROD_CD %>')"  title="Remove this item" data-product_id="1621" data-product_sku="<%=item.PROD_CD %>">&times;</a></td>
+                      <td class="product-name"><%=item.PROD_CD %>&nbsp;<strong class="product-quantity">&times; <%=item.QTYinCart %></strong></td>
+                       <td class="product-total">
+                       <span class="amount">&#36;<%= Convert.ToDecimal(item.RETAIL_PRS * item.QTYinCart).ToString("0.00") %></span></td>
+                       </tr>
+                       <%}%>
+                           
+                    <%--<tr class="cart_item">
+                      <td class="product-name"> Anderson Anorak&nbsp; <strong class="product-quantity">&times; 1</strong></td>                      
+                      <td class="product-total"><span class="amount">&#36;249.00</span></td>
+                    </tr>--%>
+                  </tbody>
+
+                  <tfoot>
+                    <tr class="cart-subtotal">
+                        <td></td>
+                      <th>Subtotal</th>
+                      <td><span class="amount">&#36;<%=Convert.ToDecimal(totalAmount).ToString("0.00") %></span></td>
+                    </tr>
+                     
+                <tr class="cart-subtotal dropship">
+                    <td></td>
+                  <th>Dropship Fee</th>
+                  <td data-title="Subtotal"><span class="amount">&#36;3.00</span></td>
+                </tr>
+                  <%if (custype == 1 && international > 0)
+                      {%>
+                      <td></td>
+                  <tr class="cart-subtotal ShippingCharge">
+                  <th>Shipping Charge</th>
+                  <td data-title="Subtotal"><span class="amount">&#36;<span class="shipamnt"><%=Convert.ToDecimal(shipCharge).ToString("0.00")%></span></span></td>
+                </tr>
+                  <%} %>
+                    <tr class="order-total">
+                        <td></td>
+                      <th>Total</th>
+                      <td><strong><span class="amount">&#36;<span class="grandtotal"><%=Convert.ToDecimal(totalAmount + shipCharge + Convert.ToDouble(HttpContext.Current.Session["drop"])).ToString("0.00") %></span></span></strong></td>
+                    </tr>
+                  </tfoot>
+
+                </table>
+               <% }
+                   else
+                   { %>
+                <ul id="cart-mini-pro">
+                <li class="empty">No products in the cart.</li>
+              </ul>
+               <% } %>
+              
+            </div>
+            <div class="cart_outer">
+                <div class="cart1">
+                    <a href="cart.aspx" class="cart-button-header-cart">View Cart</a>
+                </div>
+                <div class="chackout1">
+                    <a href="CheckOut.aspx" class="checkout-button-header-cart">Proceed to Checkout</a>
+                </div>
+            </div>
+            <div class="clearfix-qube-ezio"></div>
+          </div>
+        </div>
+      </div>
+      <div id="pro-navigation-middle">
+        <div id="navigation-border-top-qube">
+            
+              <nav id="site-navigation" class="main-navigation center-nav-pro" style="margin-left:20px">
+              <div class="menu-main-navigation-container">
+                <ul id="menu-main-navigation" class="sf-menu">
+            
+               <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom  menu-item-4224"><a href="#">Exclusive Brands</a>
+                   <ul class="menu-pro sub-menu">
+                       <%          
+
+                           foreach (var data in categoryList2)
+                           {%>
+                   <%if (data.CATEGORYID != 59)
+                       {%> 
+                       <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  menu-item-4327" catid="<%=data.CATEGORYID %>"><a class="unique" href="Index.aspx?CatId=<%=data.CATEGORYID %>"><% =data.CATEGORYNAME %></a>  
+                       <% }
+                            %>
+                         
+                  
+                       
+                         <ul class="menu-pro sub-menu" >
+                             <%
+                                 string a, b;
+
+                                 a = data.CATEGORYNAME;
+                                 char[] splitchar = { ' ' };
+                                 string[] temp = a.Split(splitchar);
+                                 b = temp[0];
+                               %>
+                           <%if (b != "Other")
+                               {%>
+             <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4328" mainid="<%=data.CATEGORYID %>"><a href = "<%=b%>Aboutus.aspx?CatId=<%=data.CATEGORYID%>">About</a></li>        
+                <%}
+                     %>
+                               <% if (b == "Swiss")
+                                   {%>
+              <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4328" mainid="<%=data.CATEGORYID %>"><a href="ProductList.aspx?CatId=<%=data.CATEGORYID%>">Shop Now</a></li>
+              <%}
+                  else if (b == "Caliber")
+                  {%>
+               <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4328" mainid="<%=data.CATEGORYID %>"><a href = "ProductList.aspx?CatId=<%=data.CATEGORYID%>">Shop Now</a></li>
+               <%}
+                %>
+                        <%--  <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4329"><a href="Contactus.aspx">Contact</a></li>--%>
+                                <% foreach (var data1 in itemList)
+                                    {%>
+                              <%if (data.CATEGORYID == data1.PARENTID)
+                                  {%>
+                           
+                               <%-- <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4329"><a href="ProductList.aspx?CatId=<%=data1.CATEGORYID %>"><% =data1.CATEGORYNAME %></a>               --%>
+
+                              <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4329" CatId="<%=data1.CATEGORYID %>" mainid="<%=data1.PARENTID %>"><a href="ProductList.aspx?CatId=<%=data1.CATEGORYID %>"><% =data1.CATEGORYNAME %></a>               
+                                   <ul class="sub-menu child">
+                             <% foreach (var data2 in itemList)
+                                 {
+                                     var check = false;%>
+                                <%if (data1.CATEGORYID == data2.PARENTID)
+                                    {%>
+                                    
+                              <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4329 children" CatId="<%=data1.CATEGORYID %>" mainid="<%=data1.PARENTID %>"><a href="ProductList.aspx?CatId=<%=data2.CATEGORYID %>"><% =data2.CATEGORYNAME %></a></li>                             
+                                        <%--<li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4329 children"><a href="ProductList.aspx?CatId=<%=data2.CATEGORYID %>"><% =data2.CATEGORYNAME %></a></li>                             --%>
+
+                           <%}%>    
+                        <%}
+                        %>
+
+                           </ul>                            
+                          </li> 
+                        <%}
+                             %>
+                             <%else
+                                 {%>
+                              <%}
+                                %>                             
+                        <%}
+                        %>                              
+                        </ul>
+                      </li>
+                       <%}
+                        %>                        
+                    </ul>
+                  </li>
+                    <% if (custID != null)
+                        {%>    
+                    <% if (custype == 3)
+                        {%>                   
+                             <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-4333"><a href="PriceList.aspx">Dealer Resources</a>
+                              <ul class="menu-pro sub-menu">
+                                    <li class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4440"><a href="PriceList.aspx">PriceList</a>
+                                </li>
+
+                                  <li class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4440"><a href="Catalog.aspx">View Catalog</a>
+                                </li>
+                              <%--  <li class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4440"><a href="#">POP displays</a>
+                                </li>
+                                    <li class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4440"><a href="#">Images</a>
+                                </li>
+                                    <li class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4440"><a href="#">Fliers</a>
+                                </li>    --%>
+                             </ul>
+                            </li>
+
+                           <%}
+                             %>
+                    
+                        <%}
+                            else
+                            {%>
+                        <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-4333"><a href="Registration.aspx">Become A Dealer</a></li>
+                   <%}
+                 %>
+
+<%foreach (var x in categoryList2)
+    {%>
+                    <%if (x.CATEGORYID != 59)
+                        {%>
+                    <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-4333" catid="<%=x.CATEGORYID %>"><a class="unique" href="index.aspx?catid=<%=x.CATEGORYID%>"><%=x.CATEGORYNAME %></a>
+                     <%}
+                       %>
+                        <% else
+                            {%> 
+                        
+                     <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-4333" catid="<%=x.CATEGORYID %>"> <a class="unique" href="brands.aspx?catid=<%=x.CATEGORYID%>"><%=x.CATEGORYNAME %></a>    
+                        <%}
+                                %>
+         
+        <ul class="menu-pro sub-menu">
+             <%
+                 string a, b;
+
+                 a = x.CATEGORYNAME;
+                 char[] splitchar = { ' ' };
+                 string[] temp = a.Split(splitchar);
+                 b = temp[0];
+                 %>
+            <%if (b != "Other")
+                {%>
+             <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4328" catid="<%=x.CATEGORYID %>" mainid="<%=x.CATEGORYID %>"><a href = "<%=b%>Aboutus.aspx?CatId=<%=x.CATEGORYID%>">About</a></li>        
+                <%}
+                     %>
+            
+             <% if (b == "Swiss")
+                 {%>
+              <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4328"  catid="<%=x.CATEGORYID %>" mainid="<%=x.CATEGORYID %>"><a href="ProductList.aspx?CatId=<%=x.CATEGORYID%>">Shop Now</a></li>
+              <%}
+                  else if (b == "Caliber")
+                  {%>
+               <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4328" catid="<%=x.CATEGORYID %>" mainid="<%=x.CATEGORYID %>"><a href = "ProductList.aspx?CatId=<%=x.CATEGORYID%>">Shop Now</a></li>
+               <%}
+                %>
+             <% foreach (var data1 in itemList)
+                 {%>
+              <%if (x.CATEGORYID == data1.PARENTID)
+                  {%>
+          
+                   <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4329" catid="<%=data1.CATEGORYID %>" mainid="<%=data1.PARENTID %>"><a href="ProductList.aspx?CatId=<%=data1.CATEGORYID %>"><% =data1.CATEGORYNAME %></a>     
+                         <ul class="sub-menu">
+                                 <% foreach (var data2 in itemList)
+                                     {%>
+                              <%if (data1.CATEGORYID == data2.PARENTID)
+                                  {%>
+                              <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4329" catid="<%=data2.CATEGORYID %>" mainid="<%=data1.PARENTID %>"><a href="ProductList.aspx?CatId=<%=data2.CATEGORYID %>"><% =data2.CATEGORYNAME %></a>
+                               </li>                             
+
+                           <%}
+
+                              %>    
+                        <%}
+                        %>
+
+                           </ul>                                  
+                  </li>
+                   <%}
+                 %>
+                  <%}
+
+                 %>
+            </ul>
+          </li>
+                                      
+  <%}
+       %>
+                    <%--  <li class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4440"><a href="brands.aspx?Catid=59"> Other Brands</a></li>--%>
+          <%--  <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-4333"> <a href="brands.aspx?Catid=59">Other Brands</a></li>        --%>
+                </ul>
+              </div>
+              <div class="clearfix-qube-ezio"></div>
+            </nav>
+           
+        </div>
+      </div>
+      <div class="panel-search-qube">
+        <%--<form method="get" class="search-form" action="">--%>
+          <label> <span class="screen-reader-text">Search for:</span> <i class="demo-icon icon-search"></i>
+            <%--<input type="search" class="search-field" placeholder="Enter a keyword and hit enter..." value="" name="s" id="searchvalue">--%>
+             <asp:TextBox runat="server"  ID="txtSearch" Text="" placeholder="Enter a keyword and hit enter..." AutoPostBack="true" OnTextChanged="txtSearch_TextChanged" autofocus></asp:TextBox>
+          </label>
+          <input type="submit" class="search-submit" value="Search">
+        
+        <div class="clearfix-qube-ezio"></div>
+      </div>
+      <div class="clearfix-qube-ezio"></div>
+    </div>
+    <div id="main-nav-mobile">
+              <div class="menu-main-navigation-container">
+                <ul id="menu-main-navigation-1" class="mobile-menu-pro">
+                 <%-- <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4224"><a href="#">Exclusive Brands</a>
+                    <ul class="menu-pro sub-menu">
+                    <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4327"><a href="index.html">Campco</a>
+                        <ul class="menu-pro sub-menu">
+                          <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4328"><a href="about-us-campco.html">About</a></li>
+                          <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4329"><a href="contact.html">Contact</a></li>
+                        </ul>
+                      <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4327"><a href="uzi.html">UZI</a>
+                        <ul class="menu-pro sub-menu">
+                          <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4328"><a href="about-us-uzi.html">About</a></li>
+                          <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4329"><a href="contact.html">Contact</a></li>
+                          <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-4330"><a href="#">Knives</a>
+                            <ul class="sub-menu">
+                              <li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-4374"><a href="shop.html">Throwing</a></li>
+                              <li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-4374"><a href="shop.html">Folding</a></li>
+                              <li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-4385"><a href="shop.html">Fixed</a></li>
+                              <li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-4384"><a href="shop.html">Axes</a></li>
+                              <li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-4371"><a href="shop.html">Combos</a></li>
+                            </ul>
+                          </li>
+                          <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4332"><a href="shop.html">Tactical Pens</a></li>
+                          <li class="normal-item-pro  menu-item menu-item-type-post_type menu-item-object-page menu-item-4366"><a href="shop.html">Stun Guns</a></li>
+                          <li class="normal-item-pro  menu-item menu-item-type-post_type menu-item-object-page menu-item-4366"><a href="shop.html">Flashlights</a></li>
+                          <li class="normal-item-pro  menu-item menu-item-type-post_type menu-item-object-page menu-item-4366"><a href="shop.html">Watches</a></li>
+                          <li class="normal-item-pro  menu-item menu-item-type-post_type menu-item-object-page menu-item-4366"><a href="shop.html">Combo Sets</a></li>
+                          <li class="normal-item-pro  menu-item menu-item-type-post_type menu-item-object-page menu-item-4366"><a href="shop.html">Law Enforcement</a>
+                              <ul class="sub-menu">
+                              <li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-4374"><a href="shop.html">Handcuffs</a></li>
+                              <li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-4374"><a href="shop.html">Batons</a></li>
+                              <li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-4385"><a href="shop.html">Security</a></li>                              
+                            </ul>
+                          </li>
+                          <li class="normal-item-pro  menu-item menu-item-type-post_type menu-item-object-page menu-item-4366"><a href="shop.html">Digital</a></li>
+                          <li class="normal-item-pro  menu-item menu-item-type-post_type menu-item-object-page menu-item-4366"><a href="shop.html">Swiss Tritium</a></li>
+                        </ul>
+                      </li>
+                      <li class="normal-item-pro  menu-item menu-item-type-post_type menu-item-object-page menu-item-4354"><a href="humvee.html">Humvee</a>
+                        <ul class="menu-pro sub-menu">
+                          <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4328"><a href="about-us-humvee.html">About</a></li>
+                          <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4329"><a href="contact.html">Contact</a></li>
+                          <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4332"><a href="shop.html">Optics</a>
+                           <ul class="sub-menu">
+                              <li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-4374"><a href="shop.html">Sunglasses</a></li>
+                              <li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-4374"><a href="shop.html">Binoculars</a></li>                              
+                            </ul>                            
+                          </li>
+                          <li class="normal-item-pro  menu-item menu-item-type-post_type menu-item-object-page menu-item-4366"><a href="shop.html">Knives</a>
+                            <ul class="sub-menu">
+                              <li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-4374"><a href="shop.htmlshop.html">Folding</a></li>
+                              <li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-4374"><a href="shop.html">Fixed Blades</a></li>
+                            </ul>      
+                          </li>
+                          <li class="normal-item-pro  menu-item menu-item-type-post_type menu-item-object-page menu-item-4366"><a href="shop.html">Watches</a></li>
+                          <li class="normal-item-pro  menu-item menu-item-type-post_type menu-item-object-page menu-item-4366"><a href="shop.html">Gear Bags</a></li>
+                          <li class="normal-item-pro  menu-item menu-item-type-post_type menu-item-object-page menu-item-4366"><a href="shop.html">Apparel</a></li>
+                          <li class="normal-item-pro  menu-item menu-item-type-post_type menu-item-object-page menu-item-4366"><a href="shop.html">Combo Sets</a></li>
+                          <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4332"><a href="shop.html">Survival</a></li>
+                        </ul>
+                      </li>
+                      <li class="normal-item-pro  menu-item menu-item-type-post_type menu-item-object-page menu-item-4386"><a href="smith-wesson.html">Smith & Wesson</a>
+                        <ul class="menu-pro sub-menu">
+                          <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4328"><a href="about-us-smith-wesson.html">About</a></li>
+                          <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4329"><a href="contact.html">Contact</a></li>
+                          <li class="normal-item-pro  menu-item menu-item-type-post_type menu-item-object-page menu-item-4366"><a href="shop.html">Pepper Spray</a></li>
+                          <li class="normal-item-pro  menu-item menu-item-type-post_type menu-item-object-page menu-item-4366"><a href="shop.html">Combo setREVStartSize</a></li>
+                          <li class="normal-item-pro  menu-item menu-item-type-post_type menu-item-object-page menu-item-4366"><a href="shop.html">Watches</a>
+                            <ul class="sub-menu">
+                              <li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-4374"><a href="shop.html">Military/Tactical</a></li>
+                              <li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-4374"><a href="shop.html">Swiss Tritium</a></li>
+                            </ul>
+                          </li>                         
+                        </ul>
+                      </li>
+                      <li class="normal-item-pro  menu-item menu-item-type-post_type menu-item-object-page menu-item-4475"><a href="">Recover Tactical</a>
+                        <ul class="menu-pro sub-menu">
+                           <li class="normal-item-pro  menu-item menu-item-type-post_type menu-item-object-page menu-item-4366"><a href="about-us-recover-tactical.html">About</a></li>
+                           <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4329"><a href="shop.html">Contact</a></li>
+                           <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4329"><a href="shop.html">1911</a>
+                              <ul class="sub-menu">
+                              <li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-4374"><a href="shop.html">Grips</a></li>
+                              <li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-4374"><a href="shop.html">Holsters</a></li>
+                              <li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-4374"><a href="shop.html">Clips</a></li>
+                              </ul>
+                           </li>
+                           <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4329"><a href="shop.html">Beretta</a></li>
+                           <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4329"><a href="shop.html">Glock</a>
+                             <ul class="sub-menu">
+                              <li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-4374"><a href="shop.html">Rails</a></li>
+                              <li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-4374"><a href="shop.html">Holsters</a></li>
+                              <li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-4374"><a href="shop.html">Clips</a></li>
+                              </ul>
+                           </li>
+                        </ul>
+                      </li>
+                      <li class="normal-item-pro  menu-item menu-item-type-post_type menu-item-object-page menu-item-4474"><a href="">Swiss Tritium</a>
+                        <ul class="menu-pro sub-menu">
+                             <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4328"><a href="about-us-swiss-tritium.html">About</a></li>
+                             <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4329"><a href="contact.html">Contact</a></li>
+                        </ul>
+                      </li>                    
+                      <li class="normal-item-pro  menu-item menu-item-type-post_type menu-item-object-page menu-item-4386"><a href="smith-wesson.html">Caliber Gourmet</a>
+                        <ul class="menu-pro sub-menu">
+                          <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4328"><a href="about-us-caliber-gourmet.html">About</a></li>
+                          <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4329"><a href="contact.html">Contact</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>--%>
+
+                      <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4224"><a href="#">Exclusive Brands</a>
+                   <ul class="menu-pro sub-menu">
+                       <%          
+
+    foreach (var data in categoryList2)
+    {
+        if (data.CATEGORYID != 59)
+        {%>
+                    <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  menu-item-4327"><a href="Index.aspx?CatId=<%=data.CATEGORYID %>"><% =data.CATEGORYNAME %></a>
+                       
+                         <ul class="menu-pro sub-menu" >
+                             <%
+    string a, b;
+
+    a = data.CATEGORYNAME;
+    char[] splitchar = { ' ' };
+    string[] temp = a.Split(splitchar);
+    b = temp[0];
+                               %>
+                              <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4328" ><a href = "<%=b%>Aboutus.aspx?CatId=<%=data.CATEGORYID%>">About</a></li>
+                               <% if (b == "Swiss")
+    {%>
+              <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4328"><a href="ProductList.aspx?CatId=<%=data.CATEGORYID%>">Shop Now</a></li>
+              <%}
+    else if (b == "Caliber")
+    {%>
+               <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4328"><a href = "ProductList.aspx?CatId=<%=data.CATEGORYID%>">Shop Now</a></li>
+               <%}
+                %>
+                        <%--  <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4329"><a href="Contactus.aspx">Contact</a></li>--%>
+                                <% foreach (var data1 in itemList)
+    {%>
+                              <%if (data.CATEGORYID == data1.PARENTID)
+    {%>
+                           
+                                <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4329"><a href="ProductList.aspx?CatId=<%=data1.CATEGORYID %>"><% =data1.CATEGORYNAME %></a>               
+                                   <ul class="sub-menu child">
+                             <% foreach (var data2 in itemList)
+    {
+        var check = false;%>
+                                <%if (data1.CATEGORYID == data2.PARENTID)
+    {%>
+                                    
+                              <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4329 children"><a href="ProductList.aspx?CatId=<%=data2.CATEGORYID %>"><% =data2.CATEGORYNAME %></a></li>                             
+
+                           <%}%>    
+                        <%}
+                        %>
+
+                           </ul>                            
+                          </li> 
+                        <%}
+                             %>
+                             <%else
+    {%>
+                              <%}
+                                %> 
+                              
+                        <%}
+                        %>                              
+                        </ul>
+                      </li>
+                       <%}
+    }
+                        %>
+                        
+                    </ul>
+                  </li>
+                  <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-4333"><a href="Registration.aspx">Become A Dealer</a></li>
+                <%foreach (var x in categoryList2)
+                    { if (x.CATEGORYID != 59)
+                                      {%>
+         <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-4333"><a href="index.aspx?catid=<%=x.CATEGORYID%>"><%=x.CATEGORYNAME %></a>
+        <ul class="menu-pro sub-menu">
+             <%
+                 string a, b;
+
+                 a = x.CATEGORYNAME;
+                 char[] splitchar = { ' ' };
+                 string[] temp = a.Split(splitchar);
+                 b = temp[0];
+                 %>
+             <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4328"><a href = "<%=b%>Aboutus.aspx?CatId=<%=x.CATEGORYID%>">About</a></li>        
+             <% if (b == "Swiss")
+                 {%>
+              <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4328"><a href="ProductList.aspx?CatId=<%=x.CATEGORYID%>">Shop Now</a></li>
+              <%}
+                  else if (b == "Caliber")
+                  {%>
+               <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4328"><a href = "ProductList.aspx?CatId=<%=x.CATEGORYID%>">Shop Now</a></li>
+               <%}
+                %>
+             <% foreach (var data1 in itemList)
+                 {%>
+
+              <%if (x.CATEGORYID == data1.PARENTID)
+                  { if (data1.CATEGORYID != 59)
+                                       %>
+              
+                   <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4329"><a href="ProductList.aspx?CatId=<%=data1.CATEGORYID %>"><% =data1.CATEGORYNAME %></a>     
+                         <ul class="sub-menu">
+                                 <% foreach (var data2 in itemList)
+                                     {%>
+                              <%if (data1.CATEGORYID == data2.PARENTID)
+                                  {
+                                      if (data1.CATEGORYID != 59)
+                                      {%>
+                              <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4329"><a href="ProductList.aspx?CatId=<%=data2.CATEGORYID %>"><% =data2.CATEGORYNAME %></a>
+                               </li>                             
+
+                           <%}
+                               }
+
+                              %>    
+                        <%}
+                        %>
+
+                           </ul>                                  
+                  </li>
+                   <%}
+                 %>
+                  <%}
+
+                 %>
+            </ul>
+          </li>
+                                      
+  <%} }
+       %>
+                  <li class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4440"><a class="unique" href="brands.aspx?catid=59">Other Brands</a></li>
+                </ul>
+              </div>
+              <div class="clearfix-qube-ezio"></div>
+
+  <%--    <form method="get" class="search-form" action="http://qubeplus.com/demo/ezio-modern-shop/">--%>
+          
+        
+   <!--<div class="panel-search-qube">
+        <%--<form method="get" class="search-form" action="">--%>
+          <label> <span class="screen-reader-text">Search for:</span> <i class="demo-icon icon-search"></i>
+            <%--<input type="search" class="search-field" placeholder="Enter a keyword and hit enter..." value="" name="s" id="searchvalue">--%>
+             <asp:TextBox runat="server"  ID="txtmobsearch" Text="" placeholder="Enter a keyword and hit enter..." AutoPostBack="true" OnTextChanged="txtmobsearch_TextChanged"></asp:TextBox>
+          </label>
+          <input type="submit" class="search-submit" value="Search">
+        
+        <div class="clearfix-qube-ezio"></div>
+      </div>-->
+
+      <div class="clearfix-qube-ezio"></div>
+    </div>
+</header>
+
+</div>
+
+  <%--<%}
+      else
+      { %>--%>
+   <%-- <header id="masthead-qube" class="site-header default-non-fixed   full-width-header">
+<div class="width-container-qube sidebar-container-pro"> 
+
+<h1 id="logo-pro"><a href="index.aspx" title="Campco | Shop Modern" rel="home">
+              <img src="<%=catelogo != null ? catelogo.MEDIUMPIC : "assets/images/logo-up1.png" %>" alt="" width="85" class="default-logo"/>
+             <img src="<%=catelogo != null ? catelogo.SMALLPIC : "assets/images/logo-up1.png" %>" alt="" width="85" class="optional-logo" />
+            </a></h1>
+</div>
+        <asp:linkbutton id="Linkbutton1" runat="server" visible ="true" onclick="lnkSignout_Click" Font-Size="Small" CausesValidation="false">sign out</asp:linkbutton>
+</header>--%>
+    
+    <%--<%} %>--%>
+   </div>
+    <%-- end Header --%>
+    
+    <div class="topfixslide clearfix-qube-ezio"></div>
+
+    <div>
+        <div class="se-pre-con"></div>
+    
+        
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        
+    </div>
+<footer id="site-footer-qube" class="footer-bottom">
+      
+         <div data-vc-full-width="true" data-vc-full-width-init="false" class="wpb_row vc_row-fluid  vc_row-has-fill">
+                  
+            <div class="wpb_column vc_column_container vc_col-sm-12 border-client">
+              
+              <div class="vc_column-inner ">
+                <div class="wpb_wrapper">
+                     <div id="ult-carousel-53812586757020f61d5c66" class="ult_horizontal client-logo3"  data-gutter="30" data-rtl="false" >                  
+                    <div class="ult-carousel-36534275657020f61d5be5 " >
+                             <% foreach (var data in categoryList2)
+                                 {%>  
+                  <%if(data.CATEGORYID!=59)
+                      { 
+                          %>
+                          
+                      <div class="ult-item-wrap" data-animation="animated no-animation">
+                        <div class="wpb_single_image wpb_content_element vc_align_left ">
+                          <figure class="wpb_wrapper vc_figure">
+                            <div class="vc_single_image-wrapper   vc_box_border_grey">
+                            <a href="Index.aspx?CatId=<%= data.CATEGORYID %>">
+                                 <img src="../Pic/<%=data.SMALLPIC %>" class="vc_single_image-img attachment-full" alt="ezio_carousel_logo_w08" /></a></div>
+                          </figure>
+                        </div>
+                      </div>
+                       <%}
+                         } %>    
+                                      
+                    </div>
+
+                                              
+                  </div>  
+                  <script type="text/javascript">/*<![CDATA[*/jQuery(document).ready(function ($) { $('.ult-carousel-36534275657020f61d5be5').slick({ dots: false, autoplaySpeed: 5000, speed: 750, infinite: false, arrows: false, slidesToScroll: 6, slidesToShow: 6, swipe: true, draggable: true, touchMove: true, responsive: [{ breakpoint: 1025, settings: { slidesToShow: 6, slidesToScroll: 6, } }, { breakpoint: 769, settings: { slidesToShow: 3, slidesToScroll: 3 } }, { breakpoint: 481, settings: { slidesToShow: 2, slidesToScroll: 2 } }], pauseOnHover: true, pauseOnDotsHover: true, customPaging: function (slider, i) { return '<i type="button" style="color:#333333;" class="ultsl-record" data-role="none"></i>'; }, }); });/*]]>*/</script></div>
+              </div>
+
+            </div>
+
+          </div>
+
+
+
+<div class="vc_row-full-width vc_clearfix"></div>
+    <div id="widget-area-qube">
+      <div class="width-container-qube-main footer-5-pro">
+        <div id="text-6" class="footer-left-about widget widget_text">
+          <div class="textwidget">
+            <p>
+               
+                <%-- <a href="index.aspx" title="campco | shop modern" rel="home"> <img src="<%=catelogo != null ? catelogo.SMALLPIC : "assets/images/footerlogo.png" %>" alt="" width="85" class="default-logo" id="logoimg"  visible="true"/></a>--%>
+                <% if (catelogo != null)
+                    {%>
+                 <a href="index.aspx?CatId=<% =catelogo.CATEGORYID %>" ><img src="<%=catelogo != null ? catelogo.SMALLPIC : "assets/images/footerlogo.png" %>" alt=""  class="footerlogo" id="logoimg"  visible="true"/></a>
+                    <%}
+                        else
+                        {%>
+
+                 <a href="index.aspx"><img src="<%=catelogo != null ? catelogo.SMALLPIC : "assets/images/footerlogo.png" %>" alt=""  class="footerlogo" id="logoimg"  visible="true"/></a>
+                        <%}
+                     %>
+               <%-- <a href="index.aspx"><img src="<%=catelogo != null ? catelogo.SMALLPIC : "assets/images/footerlogo.png" %>" alt=""  class="footerlogo" id="logoimg"  visible="true"/></a>--%>
+           </p>
+               <!--
+            Ezio Creative<br>
+            Museumstraat 1<br>
+            1071 XX Amsterdam<br>
+            Netherlands<br>
+            <a href="mailto:SERVICE@CAMPCO.COM">me@eziocreative.com</a><br>
+            1.888.9CAMPCO<br>
+            -->
+            <p class="about-footer" id="Campco">CampCo is a world renowned manufacturer of great quality, affordable gear. When you see a CampCo logo, you can be sure that you just purchased a great product, backed by a reputable and reliable company where our customers come first! CampCo’s mission is to be the top manufacturer in the world of high quality, innovative, and affordable products.</p>
+            <%--   <p class="about-footer" id="Uzi">CampCo is a world renowned manufacturer of great quality, affordable gear. When you see a CampCo logo, you can be sure that you just purchased a great product, backed by a reputable and reliable company where our customers come first! CampCo’s mission is to be the top manufacturer in the world of high quality, innovative, and affordable products.</p>
+               <p class="about-footer" id="Humvee">CampCo is a world renowned manufacturer of great quality, affordable gear. When you see a CampCo logo, you can be sure that you just purchased a great product, backed by a reputable and reliable company where our customers come first! CampCo’s mission is to be the top manufacturer in the world of high quality, innovative, and affordable products.</p>--%>
+
+            <div class="yout ">
+                                   <%
+                                       string s1, s2;
+                                       s1 = catelogo != null ? catelogo.CATEGORYNAME : "";
+                                       char[] splitchar1 = { ' ' };
+                                       string[] temp1 = s1.Split(splitchar1);
+                                       s2 = temp1[0];
+                               %>
+
+                         
+             <%-- <a class="footer-option yellowtext" href="Aboutus.aspx?CatId=<%=catelogo.CATEGORYID%>"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Read More</a>--%>
+                            
+                  <a class="footer-option yellowtext" href="<%=s2%>Aboutus.aspx?CatId=<%=catelogo!= null?catelogo.CATEGORYID : 1 %>"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Read More</a>
+                <% if (catelogo != null)
+                    {%>                         
+                      <%if (catelogo.CATEGORYNAME == "Recover Tactical")
+                          {%>
+                       <a href="https://www.youtube.com/user/RecoverTactical" class="you-tube" target="_blank" ><img src="assets/images/you-tube.png" alt="" /></a>    
+                      <%}
+                          else
+                          {%>
+                       <a href="https://www.youtube.com/user/CampcoGear" class="you-tube" target="_blank" ><img src="assets/images/you-tube.png" alt="" /></a>    
+                      <%}
+                          }
+                      %>  
+                <% else
+                    {%>
+                 <a href="https://www.youtube.com/user/CampcoGear" class="you-tube" target="_blank" ><img src="assets/images/you-tube.png" alt="" /></a>    
+                <%}
+                         %> 
+             
+            </div>
+            <div class="social">
+              <ul >
+                  <%--<li><a href="https://www.facebook.com/<%=catelogo!= null?s2+"Gear" :  "CampcoInc"%> /" target="_blank"><img src="assets/images/social3.png" /></a></li>
+                   <li><a href="https://www.instagram.com/<%=catelogo!= null?s2+"Gear" :  "CampcoInc"%>/" target="_blank"><img src="assets/images/social8.png" /></a></li>
+                   <li><a href="https://www.youtube.com/user/CampcoGear" target="_blank"><img src="assets/images/social9.png" target="_blank"/></a></li>
+                  --%>
+                  <%if (catelogo != null)
+                      {%>
+                      <% if (catelogo.CATEGORYNAME == "Humvee")
+                          {%>
+                  <li><a href="https://www.facebook.com/HumveeGear" target="_blank"><img src="assets/images/social3.png" /></a></li>
+                   <li><a href="https://www.instagram.com/humveegear" target="_blank"><img src="assets/images/social8.png" /></a></li>
+                   <li><a href="https://www.youtube.com/user/CampcoGear" target="_blank"><img src="assets/images/social9.png" target="_blank"/></a></li>
+               
+                       <%}
+                        %>
+                  <%else if (catelogo.CATEGORYNAME == "Uzi")
+                      {%>
+                   <li><a href="https://www.facebook.com/uzigear" target="_blank"><img src="assets/images/social3.png" /></a></li>
+                   <li><a href="https://www.instagram.com/uzigear" target="_blank"><img src="assets/images/social8.png" /></a></li>
+                   <li><a href="https://www.youtube.com/user/CampcoGear" target="_blank"><img src="assets/images/social9.png" target="_blank"/></a></li> 
+                      <%}
+                      %>
+                    <%else if (catelogo.CATEGORYNAME == "Smith & Wesson")
+                        {%>
+                   <li><a href="https://www.facebook.com/smithandwesson.campco" target="_blank"><img src="assets/images/social3.png" /></a></li>
+                   <li><a href="https://www.instagram.com/smithwessongear" target="_blank"><img src="assets/images/social8.png" /></a></li>
+                   <li><a href="https://www.youtube.com/user/CampcoGear" target="_blank"><img src="assets/images/social9.png" target="_blank"/></a></li> 
+                      <%}
+                      %>
+                    <%else if (catelogo.CATEGORYNAME == "Swiss Tritium")
+                        {%>
+                   <li><a href="https://www.facebook.com/CampcoInc" target="_blank"><img src="assets/images/social3.png" /></a></li>
+                   <li><a href="https://www.instagram.com/CampcoInc" target="_blank"><img src="assets/images/social8.png" /></a></li>
+                   <li><a href="https://www.youtube.com/user/CampcoGear" target="_blank"><img src="assets/images/social9.png" target="_blank"/></a></li> 
+                      <%}
+                      %>
+                    <%else if (catelogo.CATEGORYNAME == "Recover Tactical")
+                        {%>
+                    <li><a href="https://www.facebook.com/RecoverTactical" target="_blank"><img src="assets/images/social3.png" /></a></li>
+                   <li><a href="https://www.instagram.com/recovertactical" target="_blank"><img src="assets/images/social8.png" /></a></li>
+                   <li><a href="https://www.youtube.com/user/RecoverTactical" target="_blank"><img src="assets/images/social9.png" target="_blank"/></a></li> 
+                         <%}
+                      %>
+                    <%else if (catelogo.CATEGORYNAME == "Caliber Gourmet")
+                        {%>               
+                        <li><a href="https://www.facebook.com/CampcoInc" target="_blank"><img src="assets/images/social3.png" /></a></li>
+                   <li><a href="https://www.instagram.com/CampcoInc" target="_blank"><img src="assets/images/social8.png" /></a></li>
+                   <li><a href="https://www.youtube.com/user/CampcoGear" target="_blank"><img src="assets/images/social9.png" target="_blank"/></a></li> 
+              
+                    <%}
+                      %> 
+                                                         
+                  <%}
+
+                      %>
+                    <%else
+                        {%>
+                    <li><a href="https://www.facebook.com/CampcoInc" target="_blank"><img src="assets/images/social3.png" /></a></li>
+                   <li><a href="https://www.instagram.com/CampcoInc" target="_blank"><img src="assets/images/social8.png" /></a></li>
+                   <li><a href="https://www.youtube.com/user/CampcoGear" target="_blank"><img src="assets/images/social9.png" target="_blank"/></a></li> 
+                      <%}
+                  %>
+                  
+                   </ul>
+                <div class="spacer"></div>
+            </div>
+            <div class="newsletter">Receive CampCo Brands Newsletter</div>
+            <input type="text" class="formail" placeholder="Enter your Name" id="yourname" name="yourname">
+                <input type="text" class="formail" placeholder="Enter your E-mail" id="Email" name="youremail">
+            <button type="button" class="subscribe-btn newsletterpopup">SUBSCRIBE NOW</button>
+        </div>
+
+
+          </div>
+        </div>
+
+        <div id="woocommerce_recent_reviews-5" class="widget-footer-qube widget woocommerce widget_recent_reviews">
+          
+           <h6 class="widget-title"><a href="">Customer Service</a></h6>
+         
+          
+            <ul class="product_list_widget">
+              <li><a href="Contactus.aspx">Contact</a> </li>
+              <li><a href="FAQ.aspx">FAQ</a></li>
+              <li><a href="OurCompany.aspx">Warranty</a></li>
+              <li><a href="OurCompany.aspx">Return Policy</a></li>
+              <li><a href="FAQ.aspx">Shipping Info</a></li>
+              <li><a href="#">Site Map</a></li>
+            </ul>
+          
+          <div class="catalog-wrap">
+           <!-- <a href="assets/document/CATALOG-2016.pdf" target="_blank" class="view-catalog" onclick="return false">VIEW CATALOG >></a>-->
+           <a href="Catalog.aspx"  class="view-catalog">VIEW CATALOG >></a>
+            <div class="catalog1">
+                  <a href="Catalog.aspx" class="catalog"></a>
+            </div>
+            
+          </div>
+        </div>     
+
+        <div id="Div1" class="widget-footer-qube widget woocommerce widget_recent_reviews">
+          <h6 class="widget-title"><a href="our-company.html">Company</a></h6>
+          <ul class="product_list_widget">
+            <li><a href="Login.aspx">Login / Register</a></li> 
+            <li><a href="Registration.aspx">Become A Dealer</a></li>
+            <li><a href="FAQ.aspx">Drop Ship</a></li>
+            <li><a href="Aboutus.aspx">About CampCo</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="OurCompany.aspx">Press Releases</a></li>
+          </ul>
+        </div>
+        <% foreach (var foot in footerCategoryList2)
+            {%>
+
+        <div id="Div2" class="widget-footer-qube widget woocommerce widget_recent_reviews">
+          <h6 class="widget-title"><a href="index.aspx?CatId=<%=foot.CATEGORYID%>"><%=foot.CATEGORYNAME%></a></h6>
+          <ul class="product_list_widget">
+                 <%
+                     string a, b;
+                     a = foot.CATEGORYNAME;
+                     char[] splitchar = { ' ' };
+                     string[] temp = a.Split(splitchar);
+                     b = temp[0];
+                               %>
+                        
+            <li><a href="<%=b%>Aboutus.aspx?CatId=<%=foot.CATEGORYID%>">About</a> </li> 
+            <li><a href="Contactus.aspx">Contact</a></li>
+            <li><a href="Registration.aspx">Become A Dealer</a></li>
+          </ul>
+
+          <ul class="coloured-text">
+                <% foreach (var foot2 in itemList)
+                    {%>
+
+                              <%if (foot.CATEGORYID == foot2.PARENTID)
+                                  {%>
+                            <%-- <li><a href="ProductList.aspx?CatId=<%= foot2.CATEGORYID %>"><%= foot2.CATEGORYNAME %></a></li>--%>
+                           
+                           <li><a href="ProductList.aspx?CatId=<%= foot2.CATEGORYID %>"><%= foot2.CATEGORYNAME %></a></li>
+                               <%}
+                                   }
+                                 %>                                   
+          </ul>
+        </div>
+        <%}
+         %>           
+        <div class="service-block last">
+              <h6 class="widget-title"><a href="Contactus.aspx">Contact Info</a></h6>
+                <div class="block-body">
+                  <div class="info">
+                      <p>Return Address</p>
+                        <p><span>4625 West Jefferson Blvd</br>
+Los Angeles CA 90016</span></p>
+                    </div>
+                    <div class="info">
+                      <p>Online Help with Returns</p>
+                        <p><span>Customer Service</br>
+Tel. 323.766.2555</br>Service@campco.com</span></p>
+                    </div>
+                    <div class="info">
+                      <p>Phone Number</p>
+                        <p><span>1.888.9CAMPCO</br>
+(323) 766-2555</span></p>
+                    </div>
+                    <div class="info">
+                      <p>Email</p>
+                        <p><span>Service@campco.com</br>
+(323) 766-2555</span></p>
+                    </div>
+                  </div>
+              </div>    
+            <div class="clearfix-qube-ezio"></div>
+        </div>
+    <%--</div>--%>
+
+    <div class="social-ico  remove-padding-icons">
+      <div class="width-container-qube">
+        <div class="clearfix-qube-ezio"></div>
+      </div>
+    </div>
+    <div id="copyright-pro">
+      <div class="width-container-qube">
+        <div id="copyright-text-pro">CopyRight 2016 CAMPCO  All Rights Reserved &copy;  signed by AREA CODE310</div>
+        <div id="footer-right-qube">
+          <div class="menu-main-navigation-container">
+            <ul id="menu-main-navigation-2" class="footer-menu" >
+<%--              <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-4510"> <a href="uzi.html">UZI</a></li>
+              <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-4333"> <a href="humvee.html">HUMVEE</a></li>
+              <li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4452"> <a href="smith-wesson.html">Smith & Wesson</a></li>
+              <li class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4440"> <a href="">Recover</a></li>
+              <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4224"> <a href="#">Caliber Gourmet</a></li>
+              <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4327"> <a href="#">Swiss Tritium</a></li>    --%>          
+               <%-- <asp:Repeater ID="RptFooterBrand" runat="server">
+                    <ItemTemplate>
+                         <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-4333"> <a href="#" style="font-size:medium"><%#Eval("BRANDNAME") %></a></li>
+                    </ItemTemplate>
+                </asp:Repeater>--%>
+                <%
+                    foreach (var data in categoryList2)
+                    {%>
+                <% if (data.CATEGORYID != 59)
+                    {%> 
+                  <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-4333"> <a href="index.aspx?CatId=<%=data.CATEGORYID %>" style="font-size:medium"><%= data.CATEGORYNAME%></a></li>
+                <%}
+                    %>
+                <%else
+    {%> 
+               <li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-4333"> <a class="unique" href="brands.aspx?CatId=<%=data.CATEGORYID %>" style="font-size:medium"><%= data.CATEGORYNAME%></a></li> 
+                 <%}
+                    
+                     %>
+                
+                   <%}
+                     %>
+                 <%--<li class="normal-item-pro  menu-item menu-item-type-custom menu-item-object-custom menu-item-4333"> <a href="brands.aspx?Catid=59" style="font-size:medium">
+                </a></li>  --%>        
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="clearfix-qube-ezio"></div>
+    </div>
+
+    <a href="#0" id="pro-scroll-top">Scroll to top</a> 
+    </footer>
+
+</form>
+    
+    <script type="text/javascript">jQuery(document).ready(function ($) { 'use strict'; $("#sidebar-fixed-qube").sticky({}); $(".add-to-cart-overlay a[data-rel^='prettyPhoto'], .portfolio-column-1-pro a[data-rel^='prettyPhoto'], .featured-blog-pro a[data-rel^='prettyPhoto'], .pro-media-image a[data-rel^='prettyPhoto'], .images a[data-rel^='prettyPhoto'], .portfolio-container-pro a[data-rel^='prettyPhoto']").prettyPhoto({ hook: 'data-rel', animation_speed: 'fast', slideshow: 5000, show_title: false, deeplinking: false, overlay_gallery: false, custom_markup: '', default_width: 900, default_height: 506, social_tools: '' }); jQuery('nav#site-navigation ul.sf-menu').superfish({ popUpSelector: 'ul.sub-menu,.sf-mega', delay: 400, speed: 200, speedOut: 200, animation: { opacity: 'show' }, animationOut: { opacity: 'hide' }, cssArrows: true, autoArrows: true }); jQuery('#header-top-qube ul.sf-menu').superfish({ popUpSelector: 'ul.sub-menu,.sf-mega', delay: 400, speed: 200, speedOut: 200, animation: { opacity: 'show' }, animationOut: { opacity: 'hide' }, cssArrows: true, autoArrows: true }); });</script>
+ 
+<script type='text/javascript' src="assets/js/jquery.simplePopup.js"></script>
+<script type='text/javascript' src='assets/js/jquery.form.min.js'></script>
+<script type='text/javascript' src='assets/js/scripts.js'></script>
+<script type='text/javascript' src='assets/js/dot_irecommendthis.js'></script>
+<script type='text/javascript' src='assets/js/jquery.blockUI.min.js'></script>
+<script type='text/javascript' src='assets/js/woocommerce.min.js'></script>
+<script type='text/javascript' src='assets/js/jquery.cookie.min.js'></script>
+<script type='text/javascript' src='assets/js/cart-fragments.min.js'></script>
+<script type='text/javascript' src='assets/js/plugin.js'></script>
+<script type='text/javascript' src='assets/js/wp-embed.min.js'></script>
+<%--<script type='text/javascript' src='assets/js/js_composer_front.min.js'></script>--%>
+ <%--<script type='text/javascript' src='assets/js/script.js'></script> --%> 
+<script type='text/javascript' src='assets/js/tab/vc-accordion.min.js'></script>
+<script type='text/javascript' src='assets/js/tab/vc-tta-autoplay.min.js'></script>
+<script type='text/javascript' src='assets/js/tab/vc-tabs.min.js'></script>
+<script type='text/javascript' src='assets/js/shop/widget.min.js'></script>
+<script type='text/javascript' src='assets/js/widgets.js'></script>
+<script type='text/javascript' src='assets/js/shop/mouse.min.js'></script>
+<script type='text/javascript' src='assets/js/shop/slider.min.js'></script>
+<script type='text/javascript' src='assets/js/shop/jquery-ui-touch-punch.min.js'></script>
+    
+<script type='text/javascript' src='assets/js/shop/price-slider.min.js'></script>
+<script type='text/javascript'>var woocommerce_price_slider_params = { "currency_symbol": "$", "currency_pos": "left", "min_price": "", "max_price": "" };</script>
+
+
+<script type="text/javascript">
+
+    function setFocusToTextBox() {
+        var textbox = document.getElementById("txtSearch");
+        textbox.focus();
+        textbox.scrollIntoView();
+    }
+
+</script> 
+    <script type="text/javascript">
+        jQuery(document).on("click", ".newsletterpopup", function () {
+            var a = jQuery("#yourname").val();
+            var b = jQuery("#Email").val();
+            window.location.href = "login.aspx?param=news&Name=" + a + "&Email=" + b;
+
+        }
+        )
+
+    </script>  
+
+    <script type="text/javascript">
+        //jQuery(document).on("click", ".remove", function () {
+        //    var a = jQuery(this).attr('data-product_sku');
+        //    //var b = jQuery("#Email").val();
+        //    //window.location.href = "login.aspx?param=news&Name=" + a + "&Email=" + b;
+        //    alert(a);
+        //    Remove(a);
+
+        //}
+        //)
+
+    </script>  
+        
+
+    
+</body>
+</html>

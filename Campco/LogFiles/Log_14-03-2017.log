@@ -1,0 +1,1106 @@
+-------------------------START-------------------------14-03-2017 15:44:49
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :ProcessOrders Buttom Click
+----------------------------------------------------
+-------------------------END-------------------------14-03-2017 15:44:49
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 15:46:57
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :ProcessOrders Buttom Click
+-------------------------END-------------------------14-03-2017 15:46:57
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 15:48:09
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.CheckOut.btnProcessOrder_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CheckOut.aspx.cs:line 309
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.CheckOut.btnProcessOrder_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CheckOut.aspx.cs:line 309
+-------------------------END-------------------------14-03-2017 15:48:09
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 15:48:54
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.dbUtility.Cart(DataTable Cart) in D:\TFS_Projects\Campco\Campco\AppCode\dbUtility.cs:line 776
+   at Campco.Common.CheckOut.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CheckOut.aspx.cs:line 111
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.dbUtility.Cart(DataTable Cart) in D:\TFS_Projects\Campco\Campco\AppCode\dbUtility.cs:line 776
+   at Campco.Common.CheckOut.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CheckOut.aspx.cs:line 111
+-------------------------END-------------------------14-03-2017 15:48:54
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 15:49:06
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :ProcessOrders Buttom Click
+-------------------------END-------------------------14-03-2017 15:49:06
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 15:52:14
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 73
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 73
+-------------------------END-------------------------14-03-2017 15:52:14
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 16:01:49
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :ProcessOrders Buttom Click
+-------------------------END-------------------------14-03-2017 16:01:49
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 16:03:43
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :ProcessOrders Buttom Click
+-------------------------END-------------------------14-03-2017 16:03:43
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 16:07:43
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :ProcessOrders Buttom Click
+-------------------------END-------------------------14-03-2017 16:07:43
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 16:09:01
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :ProcessOrders Buttom Click
+-------------------------END-------------------------14-03-2017 16:09:01
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 16:14:05
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :ProcessOrders Buttom Click
+-------------------------END-------------------------14-03-2017 16:14:05
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 16:15:00
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :ProcessOrders Buttom Click
+-------------------------END-------------------------14-03-2017 16:15:00
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 16:16:15
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 221
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 221
+-------------------------END-------------------------14-03-2017 16:16:15
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 16:16:29
+Page :UpdateMyProfile.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 221
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 221
+-------------------------END-------------------------14-03-2017 16:16:29
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 16:17:10
+Page :UpdateMyProfile.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 221
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 221
+-------------------------END-------------------------14-03-2017 16:17:10
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 16:18:36
+Page :UpdateMyProfile.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 221
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 221
+-------------------------END-------------------------14-03-2017 16:18:36
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 16:18:37
+Page :UpdateMyProfile.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Campco.dbUtility.GetCustomerDetail_MyProfile(Registration_Property R) in D:\TFS_Projects\Campco\Campco\AppCode\dbUtility.cs:line 281
+   at Campco.Common.UpdateMyProfile.Get_CustomerDetail() in D:\TFS_Projects\Campco\Campco\Common\UpdateMyProfile.aspx.cs:line 75
+   at Campco.Common.UpdateMyProfile.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\UpdateMyProfile.aspx.cs:line 38
+----------------------------------------------------
+System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Campco.dbUtility.GetCustomerDetail_MyProfile(Registration_Property R) in D:\TFS_Projects\Campco\Campco\AppCode\dbUtility.cs:line 281
+   at Campco.Common.UpdateMyProfile.Get_CustomerDetail() in D:\TFS_Projects\Campco\Campco\Common\UpdateMyProfile.aspx.cs:line 75
+   at Campco.Common.UpdateMyProfile.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\UpdateMyProfile.aspx.cs:line 38
+-------------------------END-------------------------14-03-2017 16:18:37
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 16:21:55
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :ProcessOrders Buttom Click
+-------------------------END-------------------------14-03-2017 16:21:55
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 16:23:58
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :ProcessOrders Buttom Click
+-------------------------END-------------------------14-03-2017 16:23:58
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 16:25:25
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 226
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 226
+-------------------------END-------------------------14-03-2017 16:25:25
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 16:27:44
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :ProcessOrders Buttom Click
+-------------------------END-------------------------14-03-2017 16:27:44
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 16:29:04
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :ProcessOrders Buttom Click
+-------------------------END-------------------------14-03-2017 16:29:04
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 16:30:04
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 236
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 236
+-------------------------END-------------------------14-03-2017 16:30:04
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 16:31:48
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :ProcessOrders Buttom Click
+-------------------------END-------------------------14-03-2017 16:31:48
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 16:39:48
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.CheckOut.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CheckOut.aspx.cs:line 71
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.CheckOut.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CheckOut.aspx.cs:line 71
+-------------------------END-------------------------14-03-2017 16:39:48
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 16:40:04
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.CheckOut.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CheckOut.aspx.cs:line 71
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.CheckOut.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CheckOut.aspx.cs:line 71
+-------------------------END-------------------------14-03-2017 16:40:04
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 16:40:51
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.CheckOut.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CheckOut.aspx.cs:line 71
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.CheckOut.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CheckOut.aspx.cs:line 71
+-------------------------END-------------------------14-03-2017 16:40:51
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 16:43:08
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 236
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 236
+-------------------------END-------------------------14-03-2017 16:43:08
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 16:44:07
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.CheckOut.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CheckOut.aspx.cs:line 71
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.CheckOut.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CheckOut.aspx.cs:line 71
+-------------------------END-------------------------14-03-2017 16:44:07
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 16:52:30
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :ProcessOrders Buttom Click
+-------------------------END-------------------------14-03-2017 16:52:30
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 16:53:05
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 236
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 236
+-------------------------END-------------------------14-03-2017 16:53:05
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 16:54:15
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :ProcessOrders Buttom Click
+-------------------------END-------------------------14-03-2017 16:54:15
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 16:54:30
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSignout_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 257
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSignout_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 257
+-------------------------END-------------------------14-03-2017 16:54:30
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 16:54:42
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 236
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 236
+-------------------------END-------------------------14-03-2017 16:54:42
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 16:55:18
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :ProcessOrders Buttom Click
+-------------------------END-------------------------14-03-2017 16:55:18
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 16:55:36
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :ProcessOrders Buttom Click
+-------------------------END-------------------------14-03-2017 16:55:36
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 17:04:08
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSignout_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 258
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSignout_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 258
+-------------------------END-------------------------14-03-2017 17:04:08
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 17:45:09
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 236
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 236
+-------------------------END-------------------------14-03-2017 17:45:09
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 17:46:45
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :ProcessOrders Buttom Click
+-------------------------END-------------------------14-03-2017 17:46:45
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 18:07:42
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 236
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 236
+-------------------------END-------------------------14-03-2017 18:07:42
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 18:09:18
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :ProcessOrders Buttom Click
+-------------------------END-------------------------14-03-2017 18:09:18
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 18:19:20
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 236
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 236
+-------------------------END-------------------------14-03-2017 18:19:20
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 18:20:31
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :ProcessOrders Buttom Click
+-------------------------END-------------------------14-03-2017 18:20:31
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 18:22:18
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :ProcessOrders Buttom Click
+-------------------------END-------------------------14-03-2017 18:22:18
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 18:49:33
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 236
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 236
+-------------------------END-------------------------14-03-2017 18:49:33
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 18:50:17
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :ProcessOrders Buttom Click
+-------------------------END-------------------------14-03-2017 18:50:17
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 18:50:25
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.CheckOut.btnProcessOrder_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CheckOut.aspx.cs:line 642
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.CheckOut.btnProcessOrder_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CheckOut.aspx.cs:line 642
+-------------------------END-------------------------14-03-2017 18:50:25
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 18:50:54
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :ProcessOrders Buttom Click
+-------------------------END-------------------------14-03-2017 18:50:54
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 18:52:35
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.CheckOut.btnProcessOrder_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CheckOut.aspx.cs:line 642
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.CheckOut.btnProcessOrder_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CheckOut.aspx.cs:line 642
+-------------------------END-------------------------14-03-2017 18:52:35
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:04:05
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 236
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 236
+-------------------------END-------------------------14-03-2017 19:04:05
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:04:24
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :Get Customer Profile sample
+-------------------------END-------------------------14-03-2017 19:04:24
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:04:26
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :Successful.
+-------------------------END-------------------------14-03-2017 19:04:26
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:04:26
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :Customer Profile Id: 1222728415
+-------------------------END-------------------------14-03-2017 19:04:26
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:04:37
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :Get Customer Profile sample
+-------------------------END-------------------------14-03-2017 19:04:37
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:04:39
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :Successful.
+-------------------------END-------------------------14-03-2017 19:04:39
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:04:39
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :Customer Profile Id: 1222728415
+-------------------------END-------------------------14-03-2017 19:04:39
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:04:43
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :ProcessOrders Buttom Click
+-------------------------END-------------------------14-03-2017 19:04:43
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:04:51
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :Charge Customer Profile
+-------------------------END-------------------------14-03-2017 19:04:51
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:05:27
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :Successfully created transaction with Transaction ID: 60020465952
+-------------------------END-------------------------14-03-2017 19:05:27
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:05:27
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :Response Code: 1
+-------------------------END-------------------------14-03-2017 19:05:27
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:05:28
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :Message Code: 1
+-------------------------END-------------------------14-03-2017 19:05:28
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:05:28
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :Description: This transaction has been approved.
+-------------------------END-------------------------14-03-2017 19:05:28
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:05:28
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :Success, Auth Code : 05273C
+-------------------------END-------------------------14-03-2017 19:05:28
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:06:25
+Page :productDetail.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.productDetail.AddToCart_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\productDetail.aspx.cs:line 164
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.productDetail.AddToCart_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\productDetail.aspx.cs:line 164
+-------------------------END-------------------------14-03-2017 19:06:25
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:06:33
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :Get Customer Profile sample
+-------------------------END-------------------------14-03-2017 19:06:33
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:06:35
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :Successful.
+-------------------------END-------------------------14-03-2017 19:06:35
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:06:35
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :Customer Profile Id: 1222728415
+-------------------------END-------------------------14-03-2017 19:06:35
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:08:06
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :Get Customer Profile sample
+-------------------------END-------------------------14-03-2017 19:08:06
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:08:08
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :Successful.
+-------------------------END-------------------------14-03-2017 19:08:08
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:08:08
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :Customer Profile Id: 1222728415
+-------------------------END-------------------------14-03-2017 19:08:08
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:08:13
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :ProcessOrders Buttom Click
+-------------------------END-------------------------14-03-2017 19:08:13
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:08:24
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :Charge Customer Profile
+-------------------------END-------------------------14-03-2017 19:08:24
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:08:39
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :Failed Transaction.
+-------------------------END-------------------------14-03-2017 19:08:39
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:08:39
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :Error Code: 33
+-------------------------END-------------------------14-03-2017 19:08:39
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:08:39
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :Error message: Ship To First Name is required.
+-------------------------END-------------------------14-03-2017 19:08:39
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:09:21
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 236
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 236
+-------------------------END-------------------------14-03-2017 19:09:21
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:13:18
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 246
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 246
+-------------------------END-------------------------14-03-2017 19:13:18
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:13:37
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSignout_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 267
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSignout_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 267
+-------------------------END-------------------------14-03-2017 19:13:37
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:14:09
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 246
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 246
+-------------------------END-------------------------14-03-2017 19:14:09
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:15:03
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :Get Customer Profile sample
+-------------------------END-------------------------14-03-2017 19:15:03
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:15:06
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :Successful.
+-------------------------END-------------------------14-03-2017 19:15:06
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:15:06
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :Customer Profile Id: 1222728415
+-------------------------END-------------------------14-03-2017 19:15:06
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:15:16
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :Get Customer Profile sample
+-------------------------END-------------------------14-03-2017 19:15:16
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:15:18
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :Successful.
+-------------------------END-------------------------14-03-2017 19:15:18
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:15:18
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :Customer Profile Id: 1222728415
+-------------------------END-------------------------14-03-2017 19:15:18
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:16:19
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :Get Customer Profile sample
+-------------------------END-------------------------14-03-2017 19:16:19
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:16:21
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :Successful.
+-------------------------END-------------------------14-03-2017 19:16:21
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:16:21
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :Customer Profile Id: 1222728415
+-------------------------END-------------------------14-03-2017 19:16:21
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:16:26
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :ProcessOrders Buttom Click
+-------------------------END-------------------------14-03-2017 19:16:26
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:16:34
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :Charge Customer Profile
+-------------------------END-------------------------14-03-2017 19:16:34
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:17:02
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :Failed Transaction.
+-------------------------END-------------------------14-03-2017 19:17:02
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:17:15
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :Error Code: E00093
+-------------------------END-------------------------14-03-2017 19:17:15
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:17:15
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :Error message: PaymentProfile cannot be sent with billing data.
+-------------------------END-------------------------14-03-2017 19:17:15
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:17:15
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.CheckOut.btnProcessOrder_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CheckOut.aspx.cs:line 642
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.CheckOut.btnProcessOrder_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CheckOut.aspx.cs:line 642
+-------------------------END-------------------------14-03-2017 19:17:15
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:19:21
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 246
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 246
+-------------------------END-------------------------14-03-2017 19:19:21
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:28:40
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSignout_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 267
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSignout_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 267
+-------------------------END-------------------------14-03-2017 19:28:40
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:29:06
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 246
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 246
+-------------------------END-------------------------14-03-2017 19:29:06
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:29:31
+Page :Login.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.dbUtility.UpdateTempData(String cus_id) in D:\TFS_Projects\Campco\Campco\AppCode\dbUtility.cs:line 2358
+   at Campco.Common.Login.VerifyUserLogin() in D:\TFS_Projects\Campco\Campco\Common\Login.aspx.cs:line 128
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.dbUtility.UpdateTempData(String cus_id) in D:\TFS_Projects\Campco\Campco\AppCode\dbUtility.cs:line 2358
+   at Campco.Common.Login.VerifyUserLogin() in D:\TFS_Projects\Campco\Campco\Common\Login.aspx.cs:line 128
+-------------------------END-------------------------14-03-2017 19:29:31
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:30:44
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :Get Customer Profile sample
+-------------------------END-------------------------14-03-2017 19:30:44
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:30:47
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :Successful.
+-------------------------END-------------------------14-03-2017 19:30:47
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:30:47
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :Customer Profile Id: 1222728415
+-------------------------END-------------------------14-03-2017 19:30:47
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:31:15
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :Get Customer Profile sample
+-------------------------END-------------------------14-03-2017 19:31:15
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:31:17
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :Successful.
+-------------------------END-------------------------14-03-2017 19:31:17
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:31:17
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :Customer Profile Id: 1222728415
+-------------------------END-------------------------14-03-2017 19:31:17
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:32:28
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 246
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 246
+-------------------------END-------------------------14-03-2017 19:32:28
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:32:52
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :Get Customer Profile sample
+-------------------------END-------------------------14-03-2017 19:32:52
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:32:54
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :Successful.
+-------------------------END-------------------------14-03-2017 19:32:54
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:32:54
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :Customer Profile Id: 1222728415
+-------------------------END-------------------------14-03-2017 19:32:54
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:33:54
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :Get Customer Profile sample
+-------------------------END-------------------------14-03-2017 19:33:54
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:33:56
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :Successful.
+-------------------------END-------------------------14-03-2017 19:33:56
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:33:56
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :Customer Profile Id: 1222728415
+-------------------------END-------------------------14-03-2017 19:33:56
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:34:01
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :ProcessOrders Buttom Click
+-------------------------END-------------------------14-03-2017 19:34:01
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:34:10
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :Charge Customer Profile
+-------------------------END-------------------------14-03-2017 19:34:10
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:34:37
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :Successfully created transaction with Transaction ID: 60020541282
+-------------------------END-------------------------14-03-2017 19:34:37
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:34:37
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :Response Code: 1
+-------------------------END-------------------------14-03-2017 19:34:37
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:34:38
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :Message Code: 1
+-------------------------END-------------------------14-03-2017 19:34:38
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:34:38
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :Description: This transaction has been approved.
+-------------------------END-------------------------14-03-2017 19:34:38
+----------------------------------------------------
+-------------------------START-------------------------14-03-2017 19:34:38
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :Success, Auth Code : 02667C
+-------------------------END-------------------------14-03-2017 19:34:38
+----------------------------------------------------

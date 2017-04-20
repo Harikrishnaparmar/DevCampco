@@ -1,0 +1,61 @@
+-------------------------START-------------------------18-04-2017 10:04:06
+Page :index.aspx
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 133
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 133
+-------------------------END-------------------------18-04-2017 10:04:07
+----------------------------------------------------
+-------------------------START-------------------------18-04-2017 10:11:50
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 133
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 133
+-------------------------END-------------------------18-04-2017 10:11:50
+----------------------------------------------------
+-------------------------START-------------------------18-04-2017 10:11:53
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 281
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\CampcoCommon.Master.cs:line 281
+-------------------------END-------------------------18-04-2017 10:11:53
+----------------------------------------------------
+-------------------------START-------------------------18-04-2017 10:59:58
+Page :MyCard.aspx
+----------------------------------------------------
+Event :Get Customer Profile sample
+-------------------------END-------------------------18-04-2017 10:59:58
+----------------------------------------------------
+-------------------------START-------------------------18-04-2017 11:00:01
+Page :MyCard.aspx
+----------------------------------------------------
+Event :Successful.
+-------------------------END-------------------------18-04-2017 11:00:01
+----------------------------------------------------
+-------------------------START-------------------------18-04-2017 11:00:01
+Page :MyCard.aspx
+----------------------------------------------------
+Event :Customer Profile Id: 1218499991
+-------------------------END-------------------------18-04-2017 11:00:01
+----------------------------------------------------

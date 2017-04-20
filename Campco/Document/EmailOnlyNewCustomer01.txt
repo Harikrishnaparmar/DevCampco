@@ -1,0 +1,71 @@
+Dear #Contact#,
+
+Thank you for registering your dealer account at CampCo!
+
+We have received your application, and  our sales team will contact you  as soon as possible.
+
+Your registration details:
+
+Account ID: #AccountId#
+Contact:  #Contact#
+Company:  #Company# 
+Company Web Site: #WebSite# 
+Tel:  #Tel#
+Fax:  #Fax# 
+Email:  #EMail#
+Password: #Password#
+
+
+Billing Address 
+----------------------------------------------------
+Address Line 1:  #Address01#
+Address Line 2:  #Address02#
+City:  #City#
+State: #State# 
+Zip:  #Zip#
+Country:  #Country#
+ 
+ 
+
+Shipping Address 
+----------------------------------------------------
+Address Line 1:  #ShipAddress01#
+Address Line 2:  #ShipAddress02#
+City:  #ShipCity#
+State:  #ShipState#
+Zip:  #ShipZip#
+Country:  #ShipCountry#
+
+
+
+Additional Information: 
+----------------------------------------------------
+Question 1:  #Question1#
+Ans:  #Ans1#
+
+Question 2:  #Question2#
+Ans:  #Ans2#
+
+Question 3:  #Question3#
+Ans:  #Ans3#
+
+Question 4:  #Question4#
+Ans:  #Ans4#
+
+Question 5:  #Question5#
+Ans:  #Ans5#
+
+Question 6:  #Question6#
+Ans:  #Ans6#
+ 
+
+Your account requires approval and activation.An account manager will contact you upon review of your registration should you qualify as an appropriate dealer.
+
+You can contact your sales representative at 1 (323) 766 2555 or by email support@campco.com
+
+www.campco.com
+
+Thank you for using our service!
+
+Sales Team
+This is a test message, please discard it

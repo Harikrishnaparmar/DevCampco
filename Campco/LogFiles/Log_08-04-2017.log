@@ -1,0 +1,87 @@
+-------------------------START-------------------------08-04-2017 11:27:28
+Page :index.aspx
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 131
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 131
+-------------------------END-------------------------08-04-2017 11:27:28
+----------------------------------------------------
+-------------------------START-------------------------08-04-2017 12:25:54
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 131
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 131
+-------------------------END-------------------------08-04-2017 12:25:54
+----------------------------------------------------
+-------------------------START-------------------------08-04-2017 19:09:17
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 133
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 133
+-------------------------END-------------------------08-04-2017 19:09:17
+----------------------------------------------------
+-------------------------START-------------------------08-04-2017 19:09:32
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 133
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 133
+-------------------------END-------------------------08-04-2017 19:09:32
+----------------------------------------------------
+-------------------------START-------------------------08-04-2017 19:09:41
+Page :Remove
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Data.DataTableExtensions.LoadTableFromEnumerable[T](IEnumerable`1 source, DataTable table, Nullable`1 options, FillErrorEventHandler errorHandler)
+   at System.Data.DataTableExtensions.CopyToDataTable[T](IEnumerable`1 source)
+   at Campco.Common.index.Remove(String value) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 205
+----------------------------------------------------
+System.InvalidOperationException: The source contains no DataRows.
+   at System.Data.DataTableExtensions.LoadTableFromEnumerable[T](IEnumerable`1 source, DataTable table, Nullable`1 options, FillErrorEventHandler errorHandler)
+   at System.Data.DataTableExtensions.CopyToDataTable[T](IEnumerable`1 source)
+   at Campco.Common.index.Remove(String value) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 205
+-------------------------END-------------------------08-04-2017 19:09:41
+----------------------------------------------------
+-------------------------START-------------------------08-04-2017 19:10:02
+Page :Remove
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Data.DataTableExtensions.LoadTableFromEnumerable[T](IEnumerable`1 source, DataTable table, Nullable`1 options, FillErrorEventHandler errorHandler)
+   at System.Data.DataTableExtensions.CopyToDataTable[T](IEnumerable`1 source)
+   at Campco.Common.index.Remove(String value) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 205
+----------------------------------------------------
+System.InvalidOperationException: The source contains no DataRows.
+   at System.Data.DataTableExtensions.LoadTableFromEnumerable[T](IEnumerable`1 source, DataTable table, Nullable`1 options, FillErrorEventHandler errorHandler)
+   at System.Data.DataTableExtensions.CopyToDataTable[T](IEnumerable`1 source)
+   at Campco.Common.index.Remove(String value) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 205
+-------------------------END-------------------------08-04-2017 19:10:02
+----------------------------------------------------
+-------------------------START-------------------------08-04-2017 19:10:10
+Page :Remove
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Data.DataTableExtensions.LoadTableFromEnumerable[T](IEnumerable`1 source, DataTable table, Nullable`1 options, FillErrorEventHandler errorHandler)
+   at System.Data.DataTableExtensions.CopyToDataTable[T](IEnumerable`1 source)
+   at Campco.Common.index.Remove(String value) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 205
+----------------------------------------------------
+System.InvalidOperationException: The source contains no DataRows.
+   at System.Data.DataTableExtensions.LoadTableFromEnumerable[T](IEnumerable`1 source, DataTable table, Nullable`1 options, FillErrorEventHandler errorHandler)
+   at System.Data.DataTableExtensions.CopyToDataTable[T](IEnumerable`1 source)
+   at Campco.Common.index.Remove(String value) in D:\TFS_Projects\Campco\Campco\Common\index.aspx.cs:line 205
+-------------------------END-------------------------08-04-2017 19:10:10
+----------------------------------------------------
